@@ -14,24 +14,26 @@ We will add more material about the platform and its features as we go! If you h
 
 ## Part I: Getting to know Juptyer Lab and Jupyter Notbooks
 
-What is Juptyer Lab? Juptyer Lab is the generation of Juptyer Notebooks. 
+> What is Juptyer Lab? **Juptyer Lab is the generation of Juptyer Notebooks!** 
+
+In this hack, you will be required to use Juptyer Notebooks (`.ipnyb`). If you haven't ever used those, we suggest you check out this first tutorials to get you started on a Notebook in 10 min.
 
 ### Materials prepared specifically for you by us**
 
-* SLIDE DECK YET TO COME
-* **[Notebook to introduce you to .ipnb notebooks in R]()**
-* **[Notebook to introduce you to .ipnb notebooks in Python]()**
+* **[Notebook to introduce you to Jupyter notebooks with an R Kernel]()**
+* **[Notebook to introduce you to Jupyter notebooks with an Python Kernel]()**
 
 ### Additional links and information material
 * **[Official Juptyer Lab Video](https://www.youtube.com/watch?time_continue=260&v=A5YyoCKxEOU&feature=emb_logo)**
-* **[Cheet Sheet Juptyer Notebooks](ADD LINK TO FILE HERE)**
-* TBD
+* **[Cheet Sheet Juptyer Notebooks](https://raw.githubusercontent.com/ironhacks/Tutorials-COVID-19/master/Shortcuts.png?token=AC7DAY2TYDGKRV4CIQBVAG27FRYUG)**
+
 
 ## PART II: How to query data from BigQuery in a Notebook
 
 ### Tutorials prepared by RCODI
-[NOTE TO JAY  Here we want TWO  notebooks based on our own work, I will create an outline for this but we need to use the training data to actually build it
-We will be using the training data for that and need to link a sheet there] 
+> This tutorial will be release by July 31, 2020 12 pm. 
+
+It will show you how to query the BigQuery training dataset (a simple one) using the keys we have generated for you. 
 
 ### Additional links and information material
 
