@@ -18,31 +18,35 @@ We will add more material about the platform and its features as we go! If you h
 
 In this hack, you will be required to use Juptyer Notebooks (`.ipnyb`). If you haven't ever used those, we suggest you check out this first tutorials to get you started on a Notebook in 10 min.
 
-### Materials prepared specifically for you by us**
+### Short tutorial prepared specifically for you by us**
 
-* **[Notebook to introduce you to Jupyter notebooks with an R Kernel]()**
-* **[Notebook to introduce you to Jupyter notebooks with an Python Kernel]()**
+* **[Notebook to introduce you to Jupyter notebooks with an R Kernel](https://github.com/ironhacks/Tutorials-COVID-19/blob/master/PartI_IntroNotebook.ipynb)**
+* **[Notebook to introduce you to Jupyter notebooks with an Python Kernel](https://github.com/ironhacks/Tutorials-COVID-19/blob/master/PartI_IntroNotebook.ipynb)**
 
 ### Additional links and information material
+
 * **[Official Juptyer Lab Video](https://www.youtube.com/watch?time_continue=260&v=A5YyoCKxEOU&feature=emb_logo)**
 * **[Cheet Sheet Juptyer Notebooks](https://raw.githubusercontent.com/ironhacks/Tutorials-COVID-19/master/Shortcuts.png?token=AC7DAY2TYDGKRV4CIQBVAG27FRYUG)**
 
 
 ## PART II: How to query data from BigQuery in a Notebook
 
-### Tutorials prepared by RCODI
+### Short tutorial prepared specifically for you by us
 > This tutorial will be release by July 31, 2020 12 pm. 
 
-It will show you how to query the BigQuery training dataset (a simple one) using the keys we have generated for you. 
+**This tutorial will show you how to query the BigQuery training dataset (a simple one) using the keys we have generated for you** 
 
 ### Additional links and information material
+> Additional information will  will be release by July 31, 2020 12 pm. 
 
 
 ## PART III: SOME SQL Basics
 
-### Tutorials prepared by RCODI
-[NOTE TO JAY  Here we want TWO  notebooks based on our own work, I will create an outline for this but we need to use the training data to actually build it
+### Short tutorial prepared specifically for you by us
+> This tutorial will be release by August 1, 2020 
 
 ### Additional links and information material
+> This tutorial will be release by August 1, 2020 
 
-## PART IV: Yet to come :-)
+## PART IV: To be decided
+> This section will be release by August 2 or 3 depending upon requests from participants
