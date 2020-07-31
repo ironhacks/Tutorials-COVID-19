@@ -28,16 +28,20 @@ In this hack, you will be required to use Juptyer Notebooks (`.ipnyb`). If you h
 * **[Official Juptyer Lab Video](https://www.youtube.com/watch?time_continue=260&v=A5YyoCKxEOU&feature=emb_logo)**
 * **[Cheet Sheet Juptyer Notebooks](https://raw.githubusercontent.com/ironhacks/Tutorials-COVID-19/master/Shortcuts.png?token=AC7DAY2TYDGKRV4CIQBVAG27FRYUG)**
 
-
 ## PART II: How to query data from BigQuery in a Notebook
 
-### Short tutorial prepared specifically for you by us
-> This tutorial will be release by July 31, 2020 12 pm. 
+In part II of our tutorials  we will show you how you can access our training data stored in BigQuery using a key stored in your user profile. In the COVID-19 Data Science Challenges you will use BIG DATA from our data providers SafeGraph, the Management Performance Hub (MPH), and other partners (Department of Workforce Development). The first hack Summer 2020, will use preprocessed data so you will not need to use all the functionalities of BigQuery as we have sampled down more than 50 datasets with more than 1 TB and millions of raws into a small sets of cleaned tables without missing entries and clear identifiers. However, using BigQuery will still be very helpful  as you can see for exploring data without having to use them in memory etc. It will also set you up for the future of data science since BigQuery is replacing other BIG DATA services (e.g. Spark). 
 
-**This tutorial will show you how to query the BigQuery training dataset (a simple one) using the keys we have generated for you** 
+### Short tutorial prepared specifically for you by us
+
+* View a notebook that gives you a step by step instruction in how to use to query out database [here](https://github.com/ironhacks/Tutorials-COVID-19/blob/master/part-1/PartI_IntroNotebookR.ipynb) or download it [here]()
+* The notebook using Python to query our training data will be accessible soon 
 
 ### Additional links and information material
-> Additional information will  will be release by July 31, 2020 12 pm. 
+
+* The `BigRQuery` package allows you to query data stored in BigQuery using R. You can find the official documentation [here}(https://bigrquery.r-dbi.org/)
+* The `DBI` package helps you to use R to connect to database management systems (DBMS). `DBI` separates the connectivity to the DBMS into a “front-end” and a “back-end”. It defines an interface that is implemented by the "backend". In our case the backend is BigRQuery (but it also uses other backends such as SQLlite etc.). You can find the official documentation [here](https://dbi.r-dbi.org/) 
+* `dplry` is is a grammar of data manipulation, providing a consistent set of verbs that help you solve the most common data manipulation challenges. It is part of the `tidyverse` package. You can find the official documentation [here](https://dplyr.tidyverse.org/) The `dplyr` interface lets you treat BigQuery tables as if they are in-memory data frames. This is the most convenient layer if you don’t want to write SQL, but instead want dbplyr to write it for you.
 
 
 ## PART III: SOME SQL Basics
