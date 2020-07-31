@@ -34,7 +34,7 @@ In part II of our tutorials  we will show you how you can access our training da
 
 ### Short tutorial prepared specifically for you by us
 
-* View a notebook that gives you a step by step instruction in how to use to query out database [here](https://github.com/ironhacks/Tutorials-COVID-19/blob/master/part-1/PartI_IntroNotebookR.ipynb) or download it [here]()
+* View a notebook that gives you a step by step instruction in how to use to query out database [here](https://github.com/ironhacks/Tutorials-COVID-19/blob/master/part-2/Part-II-BigQuery-and-notebookR.ipynb) or download it [here](https://www.dropbox.com/s/v60g7ayyz41mxe1/Part-II-BigQuery-and-notebookR.ipynb?dl=0)
 * The notebook using Python to query our training data will be accessible soon 
 
 ### Additional links and information material
@@ -42,7 +42,6 @@ In part II of our tutorials  we will show you how you can access our training da
 * The `BigRQuery` package allows you to query data stored in BigQuery using R. You can find the official documentation [here}(https://bigrquery.r-dbi.org/)
 * The `DBI` package helps you to use R to connect to database management systems (DBMS). `DBI` separates the connectivity to the DBMS into a “front-end” and a “back-end”. It defines an interface that is implemented by the "backend". In our case the backend is BigRQuery (but it also uses other backends such as SQLlite etc.). You can find the official documentation [here](https://dbi.r-dbi.org/) 
 * `dplry` is is a grammar of data manipulation, providing a consistent set of verbs that help you solve the most common data manipulation challenges. It is part of the `tidyverse` package. You can find the official documentation [here](https://dplyr.tidyverse.org/) The `dplyr` interface lets you treat BigQuery tables as if they are in-memory data frames. This is the most convenient layer if you don’t want to write SQL, but instead want dbplyr to write it for you.
-
 
 ## PART III: SOME SQL Basics
 
