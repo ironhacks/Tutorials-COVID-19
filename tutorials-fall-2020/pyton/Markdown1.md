@@ -6,7 +6,7 @@ In this hack, you will be required to use Juptyer Notebooks (`.ipnyb`). If you h
 
 ### Short tutorial prepared specifically for you by us
 
-* View a notebook to introduce you to Jupyter notebooks with an R Kernel [here](https://github.com/ironhacks/Tutorials-COVID-19/blob/master/part-1/PartI_IntroNotebookR.ipynb)
+
 * View a notebook to introduce you to Jupyter notebooks with an Python Kernel [here](https://github.com/ironhacks/Tutorials-COVID-19/blob/master/tutorials-fall-2020/pyton/PartI_IntroNotebookPython.ipynb)
 
 ### Additional links and information material
