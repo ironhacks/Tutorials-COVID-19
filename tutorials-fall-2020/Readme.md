@@ -22,7 +22,7 @@ In this hack, you will be required to use Juptyer Notebooks (`.ipnyb`). If you h
 ### Short tutorial prepared specifically for you by us
 
 * View a notebook to introduce you to Jupyter notebooks with an R Kernel [here](https://github.com/ironhacks/Tutorials-COVID-19/blob/master/part-1/PartI_IntroNotebookR.ipynb)
-* View a notebook to introduce you to Jupyter notebooks with an Python Kernel [here](https://github.com/ironhacks/Tutorials-COVID-19/blob/master/part-1/PartI_IntroNotebookPython.ipynb)
+* View a notebook to introduce you to Jupyter notebooks with an Python Kernel [here](https://github.com/ironhacks/Tutorials-COVID-19/blob/master/tutorials-fall-2020/pyton/PartI_IntroNotebookPython.ipynb)
 
 ### Additional links and information material
 
@@ -42,7 +42,7 @@ In part II of our tutorials  we will show you how you can access our training da
 ### Short tutorial prepared specifically for you by us
 
 * View a notebook that gives you a step by step instruction in how to query BigQuery in an R notebook using your key check [here](https://github.com/ironhacks/Tutorials-COVID-19/blob/master/part-2/Part-II-BigQuery-and-notebookR_updated.ipynb) or download it [here](https://www.dropbox.com/s/le2hue8q98l4kwq/Part-II-BigQuery-and-notebookR_updated.ipynb?dl=0)
-* View a notebook that gives step by step instruction in how to query BigQuery in a Python notebook check [here](https://github.com/ironhacks/Tutorials-COVID-19/blob/master/part-2/Part-II-BigQuery-and-notebook-Python.ipynb)  or download it [here] (https://www.dropbox.com/s/dh8b133v1yjbujm/Part-II-BigQuery-and-notebook-Python.ipynb?dl=0)
+* View a notebook that gives step by step instruction in how to query BigQuery in a Python notebook check [here](https://github.com/ironhacks/Tutorials-COVID-19/blob/master/tutorials-fall-2020/pyton/PartI_IntroNotebookPython.ipynb)  or download it [here] (https://www.dropbox.com/s/dh8b133v1yjbujm/Part-II-BigQuery-and-notebook-Python.ipynb?dl=0)
 
 ### Additional links and information material
 For R: 
