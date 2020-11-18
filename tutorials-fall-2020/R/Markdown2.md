@@ -10,7 +10,7 @@ In part II of our tutorials  we will show you how you can access our training da
 
 ### Short tutorial prepared specifically for you by us
 
-* View a notebook that gives you a step by step instruction in how to query BigQuery in an R notebook using your key check [here](https://ironhacks.com/notebook-viewer?path=https://raw.githubusercontent.com/ironhacks/Tutorials-COVID-19/master/tutorials-fall-2020/R/Part2.ipynb) or download it [here](https://www.dropbox.com/s/le2hue8q98l4kwq/Part-II-BigQuery-and-notebookR_updated.ipynb?dl=0)
+* View a notebook that gives you a step by step instruction on how to query BigQuery in an R notebook using your key check [here](https://ironhacks.com/notebook-viewer?path=https://raw.githubusercontent.com/ironhacks/Tutorials-COVID-19/master/tutorials-fall-2020/R/Part2.ipynb) or download it [here](https://www.dropbox.com/s/le2hue8q98l4kwq/Part-II-BigQuery-and-notebookR_updated.ipynb?dl=0)
 
 ### Additional links and information material
 For R:
