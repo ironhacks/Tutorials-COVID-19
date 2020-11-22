@@ -1,4 +1,4 @@
-## PART II: How to query data from BigQuery in a Notebook
+## Tutorial II: How to query data from BigQuery in a Notebook
 
 In part II of our tutorials  we will show you how you can access our training data stored in BigQuery using a key stored in your user profile.
 
@@ -11,7 +11,7 @@ In part II of our tutorials  we will show you how you can access our training da
 ### Notebook specifically prepared for you
 
 We have prepared a notebook that you can use to get hands-on with R and BigQuery. 
-1. View  this notebook that gives you a step by step instruction on how to query BigQuery in an R notebook using your key check [here](https://ironhacks.com/notebook-viewer?path=https://raw.githubusercontent.com/ironhacks/Tutorials-COVID-19/master/tutorials-fall-2020/R/tutorial-2-bigquery.md) 
+1. [View](https://ironhacks.com/notebook-viewer?path=https://raw.githubusercontent.com/ironhacks/Tutorials-COVID-19/master/tutorials-fall-2020/R/PartII_BigQueryR.ipynb)  this notebook. 
 2. Download it locally
 3. Upload it into your workspace to execute it
 4. Try more yourself

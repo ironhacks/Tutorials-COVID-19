@@ -4,10 +4,13 @@
 
 In this hack, you will be required to use Juptyer Notebooks (`.ipnyb`). If you haven't ever used those, we suggest you check out this first tutorials to get you started on a Notebook in 10 min.
 
-### Short tutorial prepared specifically for you by us
+### Notebook and tutorial specifically for you by us
 
 
 * View a notebook to introduce you to Jupyter notebooks with an Python Kernel [here]( https://ironhacks.com/notebook-viewer?path=https://raw.githubusercontent.com/ironhacks/Tutorials-COVID-19/master/tutorials-fall-2020/python/PartI_IntroNotebookPython.ipynb)
+* Download it
+* Upload it into your workspace
+* And follow along
 
 ### Additional links and information material
 
