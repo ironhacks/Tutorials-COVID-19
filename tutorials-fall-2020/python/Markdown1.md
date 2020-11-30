@@ -1,18 +1,21 @@
-## Getting to know Juptyer Lab and Jupyter Notbooks
+## Getting to know JupyterLab and Jupyter Notebooks
 
-> What is Juptyer Lab? **Juptyer Lab is the generation of Juptyer Notebooks!**
+> What is JupyterLab? **JupyterLab is the generation of Jupyter Notebooks!**
 
-In this hack, you will be required to use Juptyer Notebooks (`.ipnyb`). If you haven't ever used those, we suggest you check out this first tutorials to get you started on a Notebook in 10 min.
+Write and run code written in python directly in the browser.
+
+In this hack, you will be required to use Jupyter Notebooks (`.ipnyb`).
+
+If you've never worked on a Notebook then we have prepared a tutorial notebook file for you to get started with the basic concepts.
 
 ### Notebook and tutorial specifically for you by us
 
-
-* View a notebook to introduce you to Jupyter notebooks with an Python Kernel [here]( https://ironhacks.com/notebook-viewer?path=https://raw.githubusercontent.com/ironhacks/Tutorials-COVID-19/master/tutorials-fall-2020/python/PartI_IntroNotebookPython.ipynb)
-* Download it
-* Upload it into your workspace
-* And follow along
+- Visit this page to view the notebook and get introduced to Jupyter and iPython [here](https://bit.ly/3m3ZPCG)
+- Click download at the top of the page
+- Upload the file into your workspace 
+- And follow along
 
 ### Additional links and information material
 
-* **[Official Juptyer Lab Video](https://www.youtube.com/watch?time_continue=260&v=A5YyoCKxEOU&feature=emb_logo)**
-* **[Cheet Sheet Juptyer Notebooks](https://raw.githubusercontent.com/ironhacks/Tutorials-COVID-19/master/Shortcuts.png?token=AC7DAY2TYDGKRV4CIQBVAG27FRYUG)**
+* **[Official JupyterLab Video](https://www.youtube.com/watch?v=A5YyoCKxEOU)**
+* **[Jupyter Notebooks Cheatsheet ](https://github.com/ironhacks/Tutorials-COVID-19/blob/master/tutorials-fall-2020/python/Shortcuts.png)**
