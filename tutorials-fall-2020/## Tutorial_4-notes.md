@@ -47,6 +47,10 @@ Jupyter Notebooks allow for Markdown formatted cells in addition to code. A good
 
 You may also make use of code comments throughout your notebook, but take care not to overuse them. Avoid using inline comments to the right of a line of code. Keep comments short and purposeful when they are used. If you find yourself writing a long explanation inside a code cell comment, it is probably better to move it into a more readable Markdown cell above.
 
+### Remove empty cells and commented out code 
+
+To keep your notebook readable you should remove any empty cells and any experimental code which is commented out and not used in your submission.
+
 --- 
 
 ## 2. Check for errors in your submission csv file
