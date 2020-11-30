@@ -41,8 +41,13 @@ The reason for including your notebook file with the submission is for reviewers
 
 ### Adding sections/headers
 
-### Commenting
+Jupyter Notebooks allow for Markdown formatted cells in addition to code. A good practice to improve your submission's readability is to break many long sections of code up into logical sections using markdown cells with titles and a short description of what the next section is trying to accomplish.
 
+### Code Comments
+
+You may also make use of code comments throughout your notebook, but take care not to overuse them. Avoid using inline comments to the right of a line of code. Keep comments short and purposeful when they are used. If you find yourself writing a long explanation inside a code cell comment, it is probably better to move it into a more readable Markdown cell above.
+
+--- 
 
 ## 2. Submitting properly formated notebooks
 
