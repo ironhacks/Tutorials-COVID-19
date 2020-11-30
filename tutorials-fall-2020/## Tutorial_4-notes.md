@@ -49,11 +49,91 @@ You may also make use of code comments throughout your notebook, but take care n
 
 --- 
 
-## 2. Submitting properly formated notebooks
+## 2. Check for errors in your submission csv file
 
-* .csv
-* 	Removing index (pandas)
-* 	Remove quotations around strings
+To evaluate your submissions we make use of several scripts and programs for processing and scoring. We do our best to overcome any inconsitencies in the submission file, but you can take a few steps to ensure there are no issues that will cause your file to be graded incorrectly.
+
+### Submission csv guidelines
+
+- User the correct header values
+- Only one record per line
+- Values should use quotations unless required (for example a text list containing commas should be wrapped in quotations)
+- Spaces between column separators are not required
+- No missing values 
+- No duplicate entries 
+- No skipped or empty lines
+
+__Correct Example:__
+
+Below is an example of a correctly formatted .csv submission.
+
+```
+uuid,week,count
+00681c7d-46b7-44e9-9b35-98331e53a204,18,34985
+013b319a-9146-4623-a13d-a94db23ee41a,18,2273
+015ae118-28e7-406d-b981-0bc32eb4859c,18,583
+03d1a415-7627-4fa0-a02c-129a079b6e8d,18,154
+```
+
+### Avoid these common mistakes
+
+__Mistake: Including Indexes__
+
+Do not include the dataframe index column in your output. This may cause the scoring routine to read the wrong column when computing your score.
+
+```
+,uuid,week,count
+0,00681c7d-46b7-44e9-9b35-98331e53a204,18,34985
+1,013b319a-9146-4623-a13d-a94db23ee41a,18,2273
+2,015ae118-28e7-406d-b981-0bc32eb4859c,18,583
+3,03d1a415-7627-4fa0-a02c-129a079b6e8d,18,154
+```
+
+__Mistake: Incorrect header__
+
+The correct header is given in the task and/or the submission form. Mislabelling your columns can lead to your results being unreadable by the scoring tools.
+
+```
+UUID,week_number,Foot_Traffic
+00681c7d-46b7-44e9-9b35-98331e53a204,18,34985
+013b319a-9146-4623-a13d-a94db23ee41a,18,2273
+015ae118-28e7-406d-b981-0bc32eb4859c,18,583
+03d1a415-7627-4fa0-a02c-129a079b6e8d,18,154
+```
+
+__Mistake: Wrapping output in quotations__
+
+Some libraries may accidentally wrap all outputs in quotations when writing data to a file. This is not necessary and can have unintended side effects when processing your results. Specifically when quotes are wrapped around numbers the processing script may interpret the value as a string and be unable to perform mathmatical operations correctly.
+
+```
+"uuid","week","count"
+"00681c7d-46b7-44e9-9b35-98331e53a204","18","34985"
+"013b319a-9146-4623-a13d-a94db23ee41a","18","2273"
+"015ae118-28e7-406d-b981-0bc32eb4859c","18","583"
+"03d1a415-7627-4fa0-a02c-129a079b6e8d","18","154"
+```
+
+__Mistake: Several multiple mistakes at once__
+
+For most of the mentioned errors the submission scoring tools can overcome any single issue present, but if there there are several of these combined in a single submission then scoring will fail.
+
+```
+"","UUID","week_number","Foot_Traffic"
+"1","00681c7d-46b7-44e9-9b35-98331e53a204","18","34985"
+"2","013b319a-9146-4623-a13d-a94db23ee41a","18","2273"
+"3","015ae118-28e7-406d-b981-0bc32eb4859c","18","583"
+"4","03d1a415-7627-4fa0-a02c-129a079b6e8d","18","154"
+```
+
+### General submission tips
+
+There are a few additional things your can check before submitting that aren't technically a mistake but can greatly improve your overall outcome.
+
+- Check for duplicate values. Unless it's required, finding duplicate rows in your output can often point of a logical mistake in your model or code.
+- Check to see if your output values make sense. If one of your values is a count of a thing, then you should not expect to find records with negative values in your results file. If this has happened then other non-negative values in your results may also be incorrect.
+- Null values and missing rows. If you are finding empty data in your output you may have an error in your code. For example, a mispelled variable or missing key.
+
+---
 
  ### 3. Running timestamps on a frequent basis
 One of the hacks rules is that you are using the IronHacks workspace. To make sure that you are doing this, we ask you to run a few cells everytime you execute your notebook
