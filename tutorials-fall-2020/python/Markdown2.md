@@ -1,20 +1,70 @@
-## Tutorial #2: How to query data from BigQuery in a Notebook
+# Tutorial #2: How to query data from BigQuery in a Notebook
 
-In this tutorial #2, we will show you how you can access our training data stored in BigQuery using a key stored in your user profile.
+In part II of our tutorials we will show you how to access the practice data stored in BigQuery using an access key that can be downloaded from your [user profile](https://ironhacks.com/profile) after you've registered for the event.
 
-**Why?**In the COVID-19 Data Science Challenges you will use BIG DATA from our data providers SafeGraph, the Management Performance Hub (MPH), and other partners (Department of Workforce Development). This Protect Purdue challenge will use preprocessed data so you will not need to use all the functionalities of BigQuery as we have sampled down more than 50 datasets with more than 1 TB and millions of raws into a small sets of cleaned tables without missing entries and clear identifiers. However, using BigQuery will still be very helpful  as you can see for exploring data without having to use them in memory etc. It will also set you up for the future of data science since BigQuery is replacing other BIG DATA services (e.g. Spark).
+### Introduction
 
-**What will you exactly access?** In Big Query data are stored in projects. Inside a project there are multiple datasets. Each dataset can contain multiple tables. In this hack we give you access to a project called: `ironhacks-covid19-data`. In this project there are two datasets:`ironhacks-covid19-data:ironhacks_covid19_training` and `ironhacks-covid19-data:ironhacks_covid19_competition`. During the training period you will only find data in the first dataset. In this first tutorial we only use one first relatively simply structured table stored in this dataset. It is called `covid19_tests_cases_deaths_IN`. You can find a data dictionary [here] (https://bit.ly/32hpxff)
+In the COVID-19 Data Science Challenges you will use BigData from our data providers **SafeGraph**, the **Indiana Management Performance Hub (MPH)**, and other partners like the **Indiana Department of Workforce Development**.
 
-**How will you access the project?** `ironhacks-covid19-data`: You will access the data using a key. The key is accessible via your user profile (www.ironhacks.com/profile). It is a json file. There are three steps: 1) Download the key 2) Add it to your workspace 3) following the instructions in the tutorial below to  use the key to query the database.
+Overall the amount of data being created by these combined efforts is more than what your average analysis project can typically handle on your laptop of home P.C. Also the amount of time it would take for every participant to
+download a copy of the data to their local machine in order to start writing code requires us to take a different (cloud based) approach.
+
+The [#IronHacks](https://twitter.com/search?q=%23IronHacks&src=typed_query) [#ProtectPurdue](https://twitter.com/search?q=%23ProtectPurdue&src=typed_query) challenge team members have pre-processed all the data and moved it into Google Cloud's BigQuery service so all you will need to get access to the dataset is a an access key that is created for you (visit your profile after registration to download) after registration.
+
+On BigQuery we have sampled down more than 50 datasets with more than 1 TB and millions of rows into a small sets of clean relevant tables.
+
+It will also set you up for the future of data science since BigQuery is replacing other BigData services (e.g. Spark).
+
+### Important Notes
+
+- In BigQuery **data are stored in projects**
+- Inside a project there are **multiple datasets**
+- Each **dataset contains multiple tables**
+
+### Project Setup
+
+In this hack we give you access to a project called: `ironhacks-covid19-data`
+
+In this project there are two datasets:
+
+- `ironhacks_covid19_training`
+- `ironhacks_covid19_competition`
+
+To refer to a dataset use the notation `<PROJECT_ID>:<DATASET>`
+
+Example:
+
+```
+ironhacks-covid19-data:ironhacks_covid19_training
+```
+
+During the training period you will only find data in the first training dataset.
+
+In this first tutorial we only use a relatively simple table stored from the training dataset called `covid19_tests_cases_deaths_IN`.
+
+You can find a dictionary of columns and meanings for the data [here](https://bit.ly/3pNY26V)
+
+### Setting up your notebook for BigQuery
+
+ProjectId: `ironhacks-covid19-data`
+
+Visit your [user profile](https://ironhacks.com/profile) to download your access key after registering for the hack.
+
+The key file is a JSON file with the same name as your IronHacks UserId.
+
+There are three steps:
+
+1. Download the key
+2. Upload it to your hub workspace
+3. Follow the instructions in the tutorial below to continue
 
 ### Short tutorial prepared specifically for you by us
 
-* View a notebook that gives step by step instruction on how to query BigQuery in a Python notebook check [here]( https://ironhacks.com/notebook-viewer?path=https://raw.githubusercontent.com/ironhacks/Tutorials-COVID-19/master/tutorials-fall-2020/python/Part2.ipynb)
-* Download it
-* Upload it into your workspace
-* and code along
+- View a notebook that gives step by step instruction on how to query BigQuery in a Python notebook check [here](https://bit.ly/3q6FgrR)
+- Download it
+- Upload it into your workspace
+- and follow along with the code
 
 ### Additional links and information material
 
-* `Google Cloud Big Query` package allows you to query data stored in BigQuery. More [here](https://googleapis.dev/python/bigquery/latest/index.html)
+- Learn more about Google Cloud BigQuery [here](https://cloud.google.com/bigquery)
