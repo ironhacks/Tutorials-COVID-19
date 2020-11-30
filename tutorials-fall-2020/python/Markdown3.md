@@ -1,42 +1,49 @@
-## Tutorial III: SOME SQL Basics
+# Tutorial #3: SQL Basics
 
-In this tutorial, we will introduce you into three some basic SQL Syntax. 
+## Learn basic commands and syntax using an Jupyter notebook in this tutorial.
 
-**Why?**
+In the [#IronHacks](https://twitter.com/search?q=%23IronHacks&src=typed_query) challenges, you will query data from our BigQuery datasets.
 
-In the IronHacks challenges, you are querying data from BigQuery. BigQuery uses Standard SQL language. With the respective Python library you can query data in the BigQuery tables using Standard SQL.
+BigQuery uses Standard SQL language.
 
-**What is SQL**?
+You will write basic SQL queries in combination with some Python helper libraries that will let you connect to our data on BigQuery and use it in your predictions or models.
+
+### What is SQL
 
 `SQL` is a standard language for storing, manipulating and retrieving data in databases.
 
-It is used in database systems like MySQL, SQL Server, MS Access, Oracle, Sybase, Informix, Postgres. BigQuery also uses SQL. 
+It is used in database systems like MySQL, SQL Server, MS Access, Oracle, Sybase, Informix, Postgres. BigQuery also uses SQL.
 
-**A notebook to learn SQL by learning from doing? **
+**A notebook to learn SQL by learning from doing?**
 
-We have developed a notebook for you that allows you to try three differeny using SQL statements. You will query the training data sets specifically prepared for this hack. You find them in the projec `ironhacks_covid19_data`. In the dataset `ironhacks_covid_training` you find two tables. One  is `covid19_tests_cases_deaths_IN`. and the other one is `weather_data`. In this tutorial you will apply three simple SQL statements using three important statements. 
+We created a notebook for you that allows you to try three different SQL statements.
 
+You will query the training dataset specifically prepared for this hack.
 
+Which you will find in the project `ironhacks_covid19_data`.
 
-1. `SELECT`: The `SELECT` statement is used to select data from a database. Combined with a wildcard you can select all colums in a table, or select on a subset on few ones. 
-2. `WHERE`: The `WHERE` clause is used to filter records. It is often used in the `SELECT` statement. Note, that is also used in other statements (e.g. `DELETE`). However, since you are only viewing our tables you will not be able to make such manupliations. 
-3. `JOIN`: The `JOIN` statement is a very powerful statement. A `JOIN` clause is used to combine rows from two or more tables, based on a related column between them. As you are hacking you will have access to multiple tables. With SQL `JOINS` you will be able to join data easily. 
+In the dataset `ironhacks_covid_training` you find two tables.
 
-View a notebook that gives step by step instruction on basic SQL commands here [here]( https://ironhacks.com/notebook-viewer?path=https://raw.githubusercontent.com/ironhacks/Tutorials-COVID-19/master/tutorials-fall-2020/python/Part3.ipynb). To work with this notebook we recommend that you.
+- `covid19_tests_cases_deaths_IN`
+- `weather_data`
+
+In this tutorial you will apply the following simple SQL statements
+
+1. `SELECT` - The `SELECT` statement is used to select data from a database. Combined with a wildcard you can select all column in a table, or select on a subset on few ones.
+2. `WHERE` -  The `WHERE` clause is used to filter records. It is used with the `SELECT` statement to reduce the number of results or return only a specific subset of data.
+3. `JOIN` -  The `JOIN` statement is used to combine rows from two or more tables, based on a related (key) column between them. As you are hacking you will have access to multiple tables. With SQL `JOINS` you will be able to join data easily.
+
+View a notebook that gives step by step instruction on basic SQL commands here [here](https://bit.ly/3fsYpPN). To work with this notebook we recommend that you.
 
 1. Download it
-2. And load it into your workspace. 
+2. And load it into your workspace.
 
-Make sure you also have your key ready from your [user profile](www.ironhacks.com/profile)
+Make sure you also have your key ready from your [user profile](https://ironhacks.com/profile)
+
+See the previous tutorial in case you missed this step.
 
 **Additional links and material**
 
-* Here is a [cheatsheet](../resources/SQL-cheat-sheet.pdf) that is useful for working with SQL. 
-
-* We also recommend you having a look at the official W3 School [tutorial on SQL](https://www.w3schools.com/sql/default.asp)
-* Here is the official [BigQuery Syntax for SQL](https://cloud.google.com/bigquery/docs/reference/standard-sql/query-syntax)
-
-
-
-
-
+- [SQL Cheatsheet](https://www.sqltutorial.org/sql-cheat-sheet/)
+- [W3 School SQL Tutorial](https://www.w3schools.com/sql/default.asp)
+- [Google BigQuery Syntax for SQL](https://cloud.google.com/bigquery/docs/reference/standard-sql/query-syntax)
