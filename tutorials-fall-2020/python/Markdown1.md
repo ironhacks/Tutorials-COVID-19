@@ -1,3 +1,5 @@
+# Tutorial #1: Getting to know JupyterLab and Jupyter Notebooks
+
 ## Getting to know JupyterLab and Jupyter Notebooks
 
 > What is JupyterLab? **JupyterLab is the generation of Jupyter Notebooks!**
