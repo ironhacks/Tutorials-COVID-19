@@ -140,8 +140,9 @@ There are a few additional things your can check before submitting that aren't t
 ---
 
  ### 3. Running timestamps on a frequent basis
-One of the hacks rules is that you are using the IronHacks workspace. To make sure that you are doing this, we ask you to run a few cells everytime you execute your notebook
+ 
+One of the hacks rules is that you are using the IronHacks workspace. To make sure that you are doing this, we ask you to run the notebook activity logging cell included in the submission template notebook during each of your working sessions. 
 
-> [Insert cells here ] 
+With this information you can prove that you are using our workspace. It also allows us to better understand your usage behavior, and helps our team understand how we can improve the hub experience. 
 
-With this information you can prove that you are using our workspace. It also allows us to better understand your usage behavior, and develop features in the feature. 
+Read more about this in the [IronHacks Submission Template Notebok](https://github.com/ironhacks/Tutorials-COVID-19/blob/master/tutorials-fall-2020/python/ironhacks_submission_template.ipynb)
