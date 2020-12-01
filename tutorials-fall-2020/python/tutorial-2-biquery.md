@@ -60,7 +60,7 @@ There are three steps:
 
 ### Short tutorial prepared specifically for you by us
 
-- View a notebook that gives step by step instruction on how to query BigQuery in a Python notebook check [here](https://bit.ly/3q6FgrR)
+- View a notebook that gives step by step instruction on how to query BigQuery in a Python notebook check [here](https://bit.ly/3ltrpYJ)
 - Download it
 - Upload it into your workspace
 - and follow along with the code
