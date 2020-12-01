@@ -33,7 +33,9 @@ In this tutorial you will apply the following simple SQL statements
 2. `WHERE` -  The `WHERE` clause is used to filter records. It is used with the `SELECT` statement to reduce the number of results or return only a specific subset of data.
 3. `JOIN` -  The `JOIN` statement is used to combine rows from two or more tables, based on a related (key) column between them. As you are hacking you will have access to multiple tables. With SQL `JOINS` you will be able to join data easily.
 
-View a notebook that gives step by step instruction on basic SQL commands here [here](https://bit.ly/3fsYpPN). To work with this notebook we recommend that you.
+View a notebook that gives step by step instruction on basic SQL commands here [here](https://bit.ly/3fU7zF4). 
+
+To work with this notebook we recommend that you.
 
 1. Download it
 2. And load it into your workspace.
