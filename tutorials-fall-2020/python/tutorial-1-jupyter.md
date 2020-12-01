@@ -12,7 +12,7 @@ If you've never worked on a Notebook then we have prepared a tutorial notebook f
 
 ### Notebook and tutorial specifically for you by us
 
-- Visit this page to view the notebook and get introduced to Jupyter and iPython [here](https://bit.ly/3m3ZPCG)
+- Visit this page to view the notebook and get introduced to Jupyter and iPython [here](https://bit.ly/3ltrpYJ)
 - Click download at the top of the page
 - Upload the file into your workspace 
 - And follow along
