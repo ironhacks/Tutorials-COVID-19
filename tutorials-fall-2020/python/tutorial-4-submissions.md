@@ -41,7 +41,7 @@ The reason for including your notebook file with the submission is for reviewers
 
 ### Adding sections/headers
 
-Jupyter Notebooks allow for Markdown formatted cells in addition to code. A good practice to improve your submission's readability is to break many long sections of code up into logical sections using markdown cells with titles and a short description of what the next section is trying to accomplish.
+Jupyter Notebooks allow for Markdown formatted cells in addition to code. A good practice to improve your submission's readability is to break many long sections of code up into logical sections using markdown cells with titles and a short description of what the next section is trying to accomplish. See tutorial #1 for more details on markdown language (and cheat sheet)
 
 ### Code Comments
 
@@ -51,7 +51,7 @@ You may also make use of code comments throughout your notebook, but take care n
 
 To keep your notebook readable you should remove any empty cells and any experimental code which is commented out and not used in your submission.
 
---- 
+---
 
 ## 2. Check for errors in your submission csv file
 
@@ -140,9 +140,9 @@ There are a few additional things your can check before submitting that aren't t
 ---
 
  ### 3. Running timestamps on a frequent basis
- 
+
 One of the hacks rules is that you are using the IronHacks workspace. To make sure that you are doing this, we ask you to run the notebook activity logging cell included in the submission template notebook during each of your working sessions. 
 
-With this information you can prove that you are using our workspace. It also allows us to better understand your usage behavior, and helps our team understand how we can improve the hub experience. 
+With this information you can prove that you are using our workspace. Further, it is essential for us to understand your exploration behavior. See the task description of the hack. It also allows us to better understand your usage behavior, and helps our team understand how we can improve the hub experience. 
 
 Read more about this in the [IronHacks Submission Template Notebook](https://github.com/ironhacks/Tutorials-COVID-19/blob/master/tutorials-fall-2020/python/ironhacks_submission_template.ipynb)
