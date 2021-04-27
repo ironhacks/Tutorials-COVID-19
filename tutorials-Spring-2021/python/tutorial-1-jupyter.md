@@ -12,7 +12,7 @@ If you've never worked on a Notebook then we have prepared a tutorial notebook f
 
 ### Notebook and tutorial specifically for you by us
 
-- Visit this page to view the notebook and get introduced to Jupyter and iPython [here](https://bit.ly/3ltrpYJ)
+- Visit this page to view the notebook and get introduced to Jupyter and iPython [here](https://ironhacks.com/notebook-viewer?path=https://raw.githubusercontent.com/ironhacks/Tutorials-COVID-19/master/tutorials-Spring-2021/python/tutorial-1-jupyter.ipynb)
 - Click download at the top of the page
 - Upload the file into your workspace 
 - And follow along
@@ -20,4 +20,4 @@ If you've never worked on a Notebook then we have prepared a tutorial notebook f
 ### Additional links and information material
 
 * **[Official JupyterLab Video](https://www.youtube.com/watch?v=A5YyoCKxEOU)**
-* **[Jupyter Notebooks Cheatsheet ](https://github.com/ironhacks/Tutorials-COVID-19/blob/master/tutorials-fall-2020/python/Shortcuts.png)**
+* **[Jupyter Notebooks Cheatsheet ](https://github.com/ironhacks/Tutorials-COVID-19/blob/master/tutorials-Spring-2021/python/Shortcuts.png)**
