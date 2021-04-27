@@ -137,6 +137,6 @@ One of the hacks rules is that you are using the IronHacks workspace. To make su
 
 With this information you can prove that you are using our workspace. Further, it is essential for us to understand your exploration behavior. As discussed in the [task](https://ironhacks.com/hacks/covid-19-data-science-challenge-fall-2020-to-protect-purdue-python/task), we examine your submission based on the prediction accuracy as well as the exploration behavior. It also allows us to better understand your usage behavior, and helps our team understand how we can improve the hub experience. 
 
-Read more about this in the [IronHacks Submission Template Notebook](https://ironhacks.com/notebook-viewer?path=https://raw.githubusercontent.com/ironhacks/Tutorials-COVID-19/master/tutorials-fall-2020/R/tutorial-4-submissions-R.md)
+Read more about this in the [IronHacks Submission Template Notebook](/notebook-viewer?path=https://raw.githubusercontent.com/ironhacks/Tutorials-COVID-19/master/tutorials-fall-2020/R/tutorial-4-submissions-R.md)
 
 > Note: it is required that you use this template and run the timestamps during each of your working sessions! 
