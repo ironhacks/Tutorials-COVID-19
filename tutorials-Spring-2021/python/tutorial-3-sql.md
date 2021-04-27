@@ -24,7 +24,7 @@ Which you will find in the project `ironhacks_covid19_data`.
 
 In the dataset `ironhacks_covid_training` you find two tables.
 
-- `covid19_tests_cases_deaths_IN`
+- `covid19_cases`
 - `weather_data`
 
 In this tutorial you will apply the following simple SQL statements
