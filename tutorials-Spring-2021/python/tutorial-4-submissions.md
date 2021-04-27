@@ -145,4 +145,4 @@ One of the hacks rules is that you are using the IronHacks workspace. To make su
 
 With this information you can prove that you are using our workspace. Further, it is essential for us to understand your exploration behavior. See the task description of the hack. It also allows us to better understand your usage behavior, and helps our team understand how we can improve the hub experience. 
 
-Read more about this in the [IronHacks Submission Template Notebook](https://github.com/ironhacks/Tutorials-COVID-19/blob/master/tutorials-fall-2020/python/ironhacks_submission_template.ipynb)
+Read more about this in the [IronHacks Submission Template Notebook](https://github.com/ironhacks/Tutorials-COVID-19/blob/master/tutorials-Spring-2021/python/ironhacks_submission_template.ipynb)
