@@ -4,7 +4,7 @@ This tutorial will go over how approach the challenge using a data science workf
 
 A data scientists job not only includes creating the model but more so handling data. 
 
-![](/images/ds_time_per_task.JPG)
+![My image](/images/ds_time_per_task.JPG)
 *image_caption*
 
 ## Requirements Engineering
