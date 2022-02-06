@@ -5,7 +5,7 @@ This tutorial will go over how approach the challenge using a data science workf
 A data scientists job not only includes creating the model but more so handling data. 
 
 <figure>
-<img src="..\images\ds_time_per_task.png" alt="Trulli" style="width:100%">
+<img src="..\images\ds_time_per_task.JPG" alt="Trulli" style="width:100%">
 <figcaption align = "center"><b>Fig.1 - 4K Mountains Wallpaper</b></figcaption>
 </figure>
 
