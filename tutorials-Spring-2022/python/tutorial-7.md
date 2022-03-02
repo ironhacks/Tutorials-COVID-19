@@ -4,6 +4,20 @@
 
 One of the most basic forms of modeling you can do is a regression. It can come in many forms (Linear, Ridge, etc). Understanding how regression works and how to implement it is one of the foundational things to understand when begenning your journey as a data scientist. In this tutorial, we will be going through the fundementals over Logistic Regression, as well as looking over some code examples that you can run on your JupyterHub on the Ironhacks Platform.
 
+## Outline
+
+End of this tutorial, you should know the following:
+ - Understand a lag regression model (Theory, properties, etc)
+ - Be able to implement lag regression in python
+ - Include preprocessing??
+ - Be able to implement a simple solution for the hack (Using other related/similar data)
+
+## Sections
+ - Theory
+ - 
+
+
+
 ## Logistic Regression Theory
 
 Logistic Regression is a method to modelling the probability of a certain event occuring. This means we have to understand the relationship beteween our independent variables (X1,X2,...) and our target variable (Y), which usually have a some binary value. Logistic regression is extremely helpful in problems where classification is involved. Below is the formal equation for logistic regression.
