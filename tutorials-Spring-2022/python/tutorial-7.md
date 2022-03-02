@@ -14,9 +14,19 @@ End of this tutorial, you should know the following:
 
 ## Sections
  - Theory
- - 
-
-
+  - Formulas
+  - When is it useful?
+  - Implementation on Time-Series
+  - Underlying estimator and optimization 
+ - Python Implementation
+  - Packages
+  - Data Retrival
+  - Data Cleaning
+  - Feature Engineering
+  - Implementation (Jupyter Notebook)
+  - Validation/ Evaulation
+  - Visualization
+ - Summary (How to use in the hack?)
 
 ## Logistic Regression Theory
 
