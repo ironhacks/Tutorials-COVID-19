@@ -51,4 +51,6 @@ Typically, lag regression tends to be most useful with data that involves some f
 
 ## Summary
 
+Now that you have seen the theory and implementation of a lag regression, you should be able to have a head start into the hack and be able to come up with a simple model to predict the target variable. We can't give you all the answers, but hopefully this will give you a great starting point to begin modeling and producing some predictions. 
+
 
