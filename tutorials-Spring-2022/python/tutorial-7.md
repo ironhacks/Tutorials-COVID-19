@@ -39,7 +39,7 @@ A Distributed Lag Model is a model that lags a variable to get a better fitted d
 
 ### When is it useful?
 
-
+Typically, lag regression tends to be most useful with data that involves some form of **time-series**. You will usually find this model implemented in applications that involve economics since it is able to do a great job of modeling ecomonic trends over a time. But it can applied to generally any subject area that involves time-series data. Though accuracy will completly depend on the data set you are working with. 
 
 ### Implementation on Time-Series
 
