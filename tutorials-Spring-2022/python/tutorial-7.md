@@ -37,9 +37,10 @@ A Distributed Lag Model is a model that lags a variable to get a better fitted d
 
 ### Formulas
 
-<!-- $$y = \alpha + \beta(L)x_t + u_t = \alpha + \sum_{s=0}^\inf \beta_s x_{t-s} + u_t$$ --> 
-
-<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=y = \alpha+\beta(L)x_t+u_t = \alpha+\sum_{s=0}^\inf \beta_s x_{t-s}+u_t"></div>
+<figure>
+<img src="images/lag_formula.JPG" alt="Lag Formula" width="70%" height="70%"/>
+<figcaption align = "center">
+</figure>
 
 ```u``` here is a stationary error term to make adjustments to the model. $\alpha$ represents the initial values. $\beta$ represents the lag weights for the independent variable, ```x```. This is the essential part of the the lag regression. Both $\beta$ and ```x``` create the lag distrubution when combined together. 
 
