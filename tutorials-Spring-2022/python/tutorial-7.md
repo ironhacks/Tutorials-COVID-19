@@ -35,7 +35,7 @@ A Distributed Lag Model is a model that lags a variable to get a better fitted d
 <figcaption align = "center">
 </figure>
 
-```u``` here is a stationary error term to make adjustments to the model. $\alpha$ represents the initial values. $\beta$ represents the lag weights for the independent variable, ```x```. This is the essential part of the the lag regression. Both $\beta$ and ```x``` create the lag distrubution when combined together. 
+```u``` here is a stationary error term to make adjustments to the model. ```a``` represents the initial values. ```B``` represents the lag weights for the independent variable, ```x```. This is the essential part of the the lag regression. Both ```B``` and ```x``` create the lag distrubution when combined together. 
 
 ### When is it useful?
 
