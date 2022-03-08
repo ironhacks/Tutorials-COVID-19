@@ -13,20 +13,13 @@ End of this tutorial, you should know the following:
  - Be able to implement a simple solution for the hack (Using other related/similar data)
 
 ## Sections
- - Theory
-  - Formulas
-  - When is it useful?
-  - Implementation on Time-Series
-  - Underlying estimator and optimization 
- - Python Implementation
-  - Packages
-  - Data Retrival
-  - Data Cleaning
-  - Feature Engineering
-  - Implementation (Jupyter Notebook)
-  - Validation/ Evaulation
-  - Visualization
- - Summary (How to use in the hack?)
+ * [Theory](#theory)
+    * [Formulas](#formulas)
+    * [When is it useful?](#when-is-it-useful)
+    * [Implementation on Time-Series](#implementation-on-time-series)
+    * [Underlying estimator and optimization](#underlying-estimator-and-optimization) 
+ * [Implementation](#implementation)
+ * [Summary](#summary)
 
 
 ## Theory
@@ -56,6 +49,6 @@ A Distributed Lag Model is a model that lags a variable to get a better fitted d
 
 > Check out the Jupyter Notebook here! [Logistic Regression](https://raw.githubusercontent.com/ironhacks/Tutorials-COVID-19/harshpavuluri/tutorial-7-dev/tutorials-Spring-2022/python/tutorial-7-regression.ipynb)
 
-
+## Summary
 
 
