@@ -8,4 +8,4 @@ There are many options for mapping libraries and tools available. For this exerc
 
 For this tutorial you will use several of the skills learned in the previous [tutorials](https://ironhacks.com/hacks/covid-19-data-science-challenge-spring-2021/tutorials).
 
-To get started load up the [**example notebook**](https://ironhacks.com/notebook-viewer?path=https://raw.githubusercontent.com/ironhacks/Tutorials-COVID-19/master/tutorials-Spring-2021/python/tutorial-5-leaflet-maps.ipynb) in the Hub and begin by replacing the example data with the output from your own models.
+To get started load up the [**example notebook**](https://ironhacks.com/notebook-viewer?path=https://raw.githubusercontent.com/ironhacks/Tutorials-COVID-19/master/tutorials-Spring-2022/python/tutorial-5-leaflet-maps.ipynb) in the Hub and begin by replacing the example data with the output from your own models.

@@ -1,6 +1,6 @@
 # Tutorial 7 - Building a Basic Regression Model
 
-> Want to jump right into the code? [Click here for the notebook!](https://raw.githubusercontent.com/ironhacks/Tutorials-COVID-19/harshpavuluri/tutorial-7-dev/tutorials-Spring-2022/python/tutorial-7-regression.ipynb)
+> Want to jump right into the code? [Click here for the notebook!](https://ironhacks.com/notebook-viewer?path=https://raw.githubusercontent.com/ironhacks/Tutorials-COVID-19/master/tutorials-Spring-2022/python/tutorial-7-regression.ipynb)
 
 One of the most basic forms of modeling you can do is a regression. It can come in many forms (Linear, Ridge, etc). Understanding how regression works and how to implement it is one of the foundational things to understand when begenning your journey as a data scientist. In this tutorial, we will be going through the fundementals over Logistic Regression, as well as looking over some code examples that you can run on your JupyterHub on the Ironhacks Platform.
 
@@ -41,13 +41,9 @@ A Distributed Lag Model is a model that lags a variable to get a better fitted d
 
 Typically, lag regression tends to be most useful with data that involves some form of **time-series**. You will usually find this model implemented in applications that involve economics since it is able to do a great job of modeling ecomonic trends over a time. But it can applied to generally any subject area that involves time-series data. Though accuracy will completly depend on the data set you are working with. 
 
-### Implementation on Time-Series
-
-### Underlying estimator and optimization
-
 ## Implementation
 
-> Check out the Jupyter Notebook here! [Logistic Regression](https://raw.githubusercontent.com/ironhacks/Tutorials-COVID-19/harshpavuluri/tutorial-7-dev/tutorials-Spring-2022/python/tutorial-7-regression.ipynb)
+> Check out the Jupyter Notebook here! [Lag Regression](https://ironhacks.com/notebook-viewer?path=https://raw.githubusercontent.com/ironhacks/Tutorials-COVID-19/master/tutorials-Spring-2022/python/tutorial-7-regression.ipynb)
 
 ## Summary
 

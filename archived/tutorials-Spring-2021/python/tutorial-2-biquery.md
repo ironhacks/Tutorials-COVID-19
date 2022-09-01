@@ -2,7 +2,7 @@
 
 # Tutorial #2: How to query data from BigQuery in a Notebook
 
-  > Want to jump right into the code? [Click here for the notebook!](https://ironhacks.com/notebook-viewer?path=https://raw.githubusercontent.com/ironhacks/Tutorials-COVID-19/master/tutorials-Spring-2021/python/tutorial-2-biquery.ipynb)
+  > Want to jump right into the code? [Click here for the notebook!](https://ironhacks.com/notebook-viewer?path=https://raw.githubusercontent.com/ironhacks/Tutorials-COVID-19/master/tutorials-Spring-2022/python/tutorial-2-biquery.ipynb)
 
 In part II of our tutorials, we will show you how to access the practice data stored in BigQuery using an access key that can be downloaded from your [user profile](https://ironhacks.com/profile) after you've registered for the event.
 
@@ -122,7 +122,7 @@ There are three steps:
 
   
   
-- View a notebook that gives step by step instruction on how to query BigQuery in a Python notebook check [here](https://ironhacks.com/notebook-viewer?path=https://raw.githubusercontent.com/ironhacks/Tutorials-COVID-19/master/tutorials-Spring-2021/python/tutorial-2-biquery.ipynb)
+- View a notebook that gives step by step instruction on how to query BigQuery in a Python notebook check [here](https://ironhacks.com/notebook-viewer?path=https://raw.githubusercontent.com/ironhacks/Tutorials-COVID-19/master/tutorials-Spring-2022/python/tutorial-2-biquery.ipynb)
 
 - Download it
 
