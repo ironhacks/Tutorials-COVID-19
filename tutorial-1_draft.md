@@ -1,16 +1,30 @@
 # Introduction to Jupyter Notebook
 
+> Want to jump right into the notebook? [Click here!](https://ironhacks.com/notebook-viewer?path=https://raw.githubusercontent.com/ironhacks/Tutorials-COVID-19/master/tutorials-Spring-2021/python/tutorial-1-jupyter.ipynb)
+
 In this tutorial, the goal is to learn about how to use Jupyter notebooks and be able to learn about the tools avaliable to you in the Jupyterhub enviroment that Ironhacks provides to you
 
 ## Getting Started with your Notebook
 
 To access your Ironhacks Jupyter Notebook, all you need to do is click the Workspace button in the main Hack page and the enviroment will automatically load and open in a new tab.
 
-*Insert Image here*
+<img src="https://i.imgur.com/UMFAWbW.png" alt=" icon" style="float: left; margin-right: 10px;" />
 
 Once you get in, you are greeted with an enviroment similar to any IDE you may have worked with in the past. To create an notebook, all you have to do is hit **File->Create New Notebook** and a new Python notebook will open up. Once you get here, you can start coding! Notebooks typically use cells to section each part you write. You may create Text or Code cells. Text cells will help you explain your code or just keep notes for yourself to help you stay on track. Code cells will be any code that you write that the complier will run. Code cells can be run individually or all at once, making it easier to debug or run code, whichever you may choose when you develop your own code for this challenge.
 
-*Insert Image here*
+
+<img src="https://i.imgur.com/vYSSlIk.png" alt=" icon" style="float: left; margin-right: 10px;" />
+
+<img src="https://i.imgur.com/ErwWOSR.png" alt=" icon" style="float: left; margin-right: 10px;" />
+
+For running code, all you need to do is go to the toolbar near the top of the enviroment and hit play. It should look like the image below
+
+<img src="https://i.imgur.com/QAZt5EI.png" alt=" icon" style="float: left; margin-right: 10px;" />
+
+
+## Tips and Tricks
+
+Jupyterhub will typically have specific shortcuts and other things within them, similar to an IDE. You can find some of these in the notebook [here](https://ironhacks.com/notebook-viewer?path=https://raw.githubusercontent.com/ironhacks/Tutorials-COVID-19/master/tutorials-Spring-2021/python/tutorial-1-jupyter.ipynb) to give you an idea of what you have avaliable to you
 
 ## Avalible Features inside of Ironhacks
 
