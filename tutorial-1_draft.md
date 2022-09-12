@@ -1,4 +1,4 @@
-# Introduction to Jupyter Notebook
+# Tutorial #1: Introduction to Jupyter Notebook
 
 > Want to jump right into the notebook? [Click here!](https://ironhacks.com/notebook-viewer?path=https://raw.githubusercontent.com/ironhacks/Tutorials-COVID-19/master/tutorials-Spring-2021/python/tutorial-1-jupyter.ipynb)
 
