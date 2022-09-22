@@ -59,6 +59,6 @@ query_job = bigquery_client.query(query)
 data = query_job.to_dataframe()
 data.head()
 """
-
+```
 This query will now only retrieve entries that have a date as `2020-06-16`. We can also change the `=` to a `<`, `>`, `=>`, or `=<` based on which data you would like.
 
