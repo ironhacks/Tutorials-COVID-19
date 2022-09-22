@@ -46,3 +46,19 @@ data.head()
 
 ### WHERE command
 
+The WHERE command helps us start filtering some of the data. For example, if we only would like the data from certain dates we can accomplish this through the WHERE command. It helps use define parameters for the query and returns a table back to you in which these conditions are true.
+
+```
+query = """
+SELECT date, max_rel_humidity
+FROM ironhacks-covid19-data.ironhacks_covid19_training.weather_data
+WHERE date='2020-06-16'
+"""
+
+query_job = bigquery_client.query(query)
+data = query_job.to_dataframe()
+data.head()
+"""
+
+This query will now only retrieve entries that have a date as `2020-06-16`. We can also change the `=` to a `<`, `>`, `=>`, or `=<` based on which data you would like.
+
