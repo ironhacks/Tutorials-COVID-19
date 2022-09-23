@@ -39,9 +39,11 @@ __So the next step now is to find the keys__:
 1. click on Download your hack dataset training key 
 1. Upload it to your Juptyer lab environment
 
-After this, you will set the `GOOGLE_APPLICATION_CREDENTIALS` to point to the path of your key as shown below.
+You'll find your API key download your Ironhacks profile here.
 
-*Insert image for key location here*
+![API key location](https://i.imgur.com/Xd6cyLr.png)
+
+After this, you will set the `GOOGLE_APPLICATION_CREDENTIALS` to point to the path of your key as shown below.
 
 ## Accessing BigQuery
 
