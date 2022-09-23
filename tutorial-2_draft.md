@@ -41,7 +41,7 @@ __So the next step now is to find the keys__:
 
 You'll find your API key download your Ironhacks profile here.
 
-![API key location](https://i.imgur.com/Xd6cyLr.png)
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/Xd6cyLr"  ><a href="//imgur.com/a/Xd6cyLr">API key location Ironhacks</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 After this, you will set the `GOOGLE_APPLICATION_CREDENTIALS` to point to the path of your key as shown below.
 
