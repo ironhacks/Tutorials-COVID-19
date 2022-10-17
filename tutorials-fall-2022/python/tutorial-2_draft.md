@@ -1,5 +1,7 @@
 # Tutorial #2: How to query data from BigQuery in a Notebook
 
+> Want to just right into the notebook? [Click here](https://ironhacks.com/notebook-viewer?path=https://raw.githubusercontent.com/ironhacks/Tutorials-COVID-19/master/tutorials-fall-2022/python/tutorial-2-biquery.ipynb)
+
 **Welcome to part II of our tutorials designed for participants in the IronHacks. Here, we will show you how you can access our training data stored in BigQuery using a key stored in your user profile.**
 
 **Before you get started**: This tutorial will not take more than 10 minutes and you should have the basic skill sets to work with the datasets thereafter. 
