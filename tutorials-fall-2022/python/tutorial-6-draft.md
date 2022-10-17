@@ -1,5 +1,7 @@
 # Tutorial #6: Getting your notebook ready for submission
 
+> Need the template? [Find it here!](https://ironhacks.com/notebook-viewer?path=https://raw.githubusercontent.com/ironhacks/Tutorials-COVID-19/master/tutorials-fall-2022/python/ironhacks_submission_template.ipynb)
+
 This tutorial will tell you how to prepare a submission that is "valid"! 
 
 ## 1. Cleaning up your notebook before submission
@@ -8,7 +10,7 @@ Before you head to the submission form there's a few steps you take to make sure
 
 ### Remove outputs from cells
 
-Some commands that run in your notebook produce unneccessary output making it harder to read and greatly increase the file size of your submission.
+Some commands that run in your notebook produce unnecessary output making it harder to read and greatly increase the file size of your submission.
 
 To clear cell output, right click inside the notebook and select `Clear Outputs` or `Clear All Outputs`
 
@@ -26,7 +28,7 @@ __2. Error messages__
 
 __3. Notebook Data__
 
-If you have printed out the contents of your working data at various steps this will siginificanltly increase the file size and will also increase loading time in the site's notebook viewer. It is best practice to remove any unecessary print commands and remove the outputs of any dataframes, query results, or other working data types prior to submitting.
+If you have printed out the contents of your working data at various steps this will significantly increase the file size and will also increase loading time in the site's notebook viewer. It is best practice to remove any unnecessary print commands and remove the outputs of any dataframes, query results, or other working data types prior to submitting.
 
 __Hint:__ Use the capture command to disable cell output.
 
@@ -55,7 +57,7 @@ To keep your notebook readable you should remove any empty cells and any experim
 
 ## 2. Check for errors in your submission csv file
 
-To evaluate your submissions we make use of several scripts and programs for processing and scoring. We do our best to overcome any inconsitencies in the submission file, but you can take a few steps to ensure there are no issues that will cause your file to be graded incorrectly.
+To evaluate your submissions we make use of several scripts and programs for processing and scoring. We do our best to overcome any inconsistencies in the submission file, but you can take a few steps to ensure there are no issues that will cause your file to be graded incorrectly.
 
 ### Submission csv guidelines
 
@@ -95,7 +97,7 @@ Do not include the dataframe index column in your output. This may cause the sco
 
 __Mistake: Incorrect header__
 
-The correct header is given in the task and/or the submission form. Mislabelling your columns can lead to your results being unreadable by the scoring tools.
+The correct header is given in the task and/or the submission form. Mislabeling your columns can lead to your results being unreadable by the scoring tools.
 
 ```
 UUID,week_number,Foot_Traffic
@@ -107,7 +109,7 @@ UUID,week_number,Foot_Traffic
 
 __Mistake: Wrapping output in quotations__
 
-Some libraries may accidentally wrap all outputs in quotations when writing data to a file. This is not necessary and can have unintended side effects when processing your results. Specifically when quotes are wrapped around numbers the processing script may interpret the value as a string and be unable to perform mathmatical operations correctly.
+Some libraries may accidentally wrap all outputs in quotations when writing data to a file. This is not necessary and can have unintended side effects when processing your results. Specifically when quotes are wrapped around numbers the processing script may interpret the value as a string and be unable to perform mathematical operations correctly.
 
 ```
 "uuid","week","count"
@@ -135,7 +137,7 @@ There are a few additional things your can check before submitting that aren't t
 
 - Check for duplicate values. Unless it's required, finding duplicate rows in your output can often point of a logical mistake in your model or code.
 - Check to see if your output values make sense. If one of your values is a count of a thing, then you should not expect to find records with negative values in your results file. If this has happened then other non-negative values in your results may also be incorrect.
-- Null values and missing rows. If you are finding empty data in your output you may have an error in your code. For example, a mispelled variable or missing key.
+- Null values and missing rows. If you are finding empty data in your output you may have an error in your code. For example, a misspelled variable or missing key.
 
 ---
 
@@ -145,4 +147,4 @@ One of the hacks rules is that you are using the IronHacks workspace. To make su
 
 With this information you can prove that you are using our workspace. Further, it is essential for us to understand your exploration behavior. See the task description of the hack. It also allows us to better understand your usage behavior, and helps our team understand how we can improve the hub experience. 
 
-Read more about this in the [IronHacks Submission Template Notebook](https://github.com/ironhacks/Tutorials-COVID-19/blob/master/tutorials-Spring-2021/python/ironhacks_submission_template.ipynb)
+> Read more about this in the [IronHacks Submission Template Notebook](https://ironhacks.com/notebook-viewer?path=https://raw.githubusercontent.com/ironhacks/Tutorials-COVID-19/master/tutorials-fall-2022/python/ironhacks_submission_template.ipynb)
