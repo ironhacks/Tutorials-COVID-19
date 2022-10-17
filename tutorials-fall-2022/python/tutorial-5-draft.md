@@ -1,4 +1,4 @@
-# Tutorial 7 - Building a Basic Regression Model
+# Tutorial 5 - Building a Basic Regression Model
 
 > Want to jump right into the code? [Click here for the notebook!](https://ironhacks.com/notebook-viewer?path=https://raw.githubusercontent.com/ironhacks/Tutorials-COVID-19/master/tutorials-Spring-2022/python/tutorial-7-regression.ipynb)
 

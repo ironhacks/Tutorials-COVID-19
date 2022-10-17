@@ -1,4 +1,4 @@
-# Tutorial #4: Getting your notebook ready for submission
+# Tutorial #6: Getting your notebook ready for submission
 
 This tutorial will tell you how to prepare a submission that is "valid"! 
 
