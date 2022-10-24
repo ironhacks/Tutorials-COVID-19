@@ -45,7 +45,7 @@ gcloud auth application-default login
 Now we'll need to set the project in your environment
 
 ```
-
+gcloud auth application-default set-quota-project ironhacks-covid19-data
 ```
 Your terminal should look something like this now
 
