@@ -47,6 +47,11 @@ Now we'll need to set the project in your environment
 ```
 
 ```
+Your terminal should look something like this now
+
+<img src="https://i.imgur.com/6ol805q.png" alt=" icon" style="float: left; margin-right: 10px;" />
+
+
 Now we can go back to our notebook environment and now we can progress as normal!
 
 > Note: You will need to re-run the terminal commands each time you re-open the notebook. But this will only need to be done once per session
