@@ -1,6 +1,6 @@
 # Tutorial 3: SQL and Practices
 
-> Want to jump right into the notebook? [Click here!](https://ironhacks.com/notebook-viewer?path=https://raw.githubusercontent.com/ironhacks/Tutorials-COVID-19/master/tutorials-fall-2022/python/tutorial-3-sql.ipynb)
+> Want to jump right into the notebook? [Click here!](https://ironhacks.com/notebook-viewer?path=https://https://raw.githubusercontent.com/ironhacks/Tutorials-COVID-19/harshapavuluri/tutorial-2-changes/tutorials-fall-2022/python/tutorial-3-sql.ipynb)
 
 This tutorial will go over the SQL language and certain commands that are available for you to use. Since you will be using BigQuery to access the data for the challenge, you can use it to query specific information or perform certain calculations before it comes to your Jupyter notebook! Here, we'll go through a few basic commands for you to try and also some more advanced ones to show the power you have through BigQuery.
 
