@@ -1,6 +1,6 @@
 # Tutorial #2: How to query data from BigQuery in a Notebook
 
-> Want to just right into the notebook? [Click here](https://ironhacks.com/notebook-viewer?path=https://raw.githubusercontent.com/ironhacks/Tutorials-COVID-19/master/tutorials-fall-2022/python/tutorial-2-biquery.ipynb)
+> Want to just right into the notebook? [Click here](https://ironhacks.com/notebook-viewer?path=https://raw.githubusercontent.com/ironhacks/Tutorials-COVID-19/blob/harshapavuluri/tutorial-2-changes/tutorials-fall-2022/python/tutorial-2-biquery.ipynb)
 
 **Welcome to part II of our tutorials designed for participants in the IronHacks. Here, we will show you how you can access our training data stored in BigQuery using a key stored in your user profile.**
 
