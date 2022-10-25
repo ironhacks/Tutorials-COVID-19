@@ -9,7 +9,6 @@ One of the most basic forms of modeling you can do is a regression. It can come 
 End of this tutorial, you should know the following:
  - Understand a lag regression model (Theory, properties, etc)
  - Be able to implement lag regression in python
- - Include preprocessing??
  - Be able to implement a simple solution for the hack (Using other related/similar data)
 
 
