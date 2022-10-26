@@ -70,7 +70,7 @@ As some insurance, you can run the following code as a cell in your Jupyter Note
 ```
 query = """
 SELECT COUNT(*)
-FROM `ironhacks-covid19-data.ironhacks_covid19_training.covid19_cases`
+FROM `ironhacks-data.ironhacks_training.covid19_cases`
 """
 
 query_job = bigquery_client.query(query)

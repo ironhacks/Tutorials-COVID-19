@@ -90,10 +90,10 @@ extract(week(Monday) from date) as week_number,
 AVG(mean_temperature) as mean_temperature_week,
 date as start_date,
 AVG(wind_speed) as mean_wind_speed_week
-FROM `ironhacks_covid19_training.weather_data`
+FROM `ironhacks_training.weather_data`
 group by week_number,start_date) a
 
-JOIN `ironhacks-covid19-data.ironhacks_covid19_training.covid19_cases` b 
+JOIN `ironhacks-data.ironhacks_training.covid19_cases` b 
 ON a.week_number=b.week_number
 order by week_number
 
