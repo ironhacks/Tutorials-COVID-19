@@ -1,3 +1,4 @@
+
 # Tutorial #6: Getting your notebook ready for submission
 
 > Need the template? [Find it here!](https://ironhacks.com/notebook-viewer?path=https://raw.githubusercontent.com/ironhacks/Tutorials-COVID-19/master/tutorials-fall-2022/python/ironhacks_submission_template.ipynb)
@@ -148,3 +149,4 @@ One of the hacks rules is that you are using the IronHacks workspace. To make su
 With this information you can prove that you are using our workspace. Further, it is essential for us to understand your exploration behavior. See the task description of the hack. It also allows us to better understand your usage behavior, and helps our team understand how we can improve the hub experience. 
 
 > Read more about this in the [IronHacks Submission Template Notebook](https://ironhacks.com/notebook-viewer?path=https://raw.githubusercontent.com/ironhacks/Tutorials-COVID-19/master/tutorials-fall-2022/python/ironhacks_submission_template.ipynb)
+
