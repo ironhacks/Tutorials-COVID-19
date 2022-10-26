@@ -14,7 +14,7 @@ BigQuery is Google's flagship data warehousing system: "Serverless, highly scala
 
 **Why do we use BigQuery?** In the COVID-19 Data Science Challenges you will use BIG DATA from our data providers SafeGraph, the Management Performance Hub (MPH), and other partners (Department of Workforce Development). The first hack Summer 2020, will use preprocessed data so you will not need to use all the functionalities of BIG QUERY as we have sampled down more than 50 datasets with more than 1 TB and millions of raws into a small sets of cleaned tables without missing entries and clear identifiers. However, using BigQuery will still be very helpful as you can see for exploring data without having to use them in memory etc. It will also set you up for the future of data science since BigQuery is replacing other BIG DATA services (e.g. Spark).
 
-**How do we give you access to BigQuery?** In Big Query data are stored in projects. Inside a project there are multiple datasets. Each dataset can contain multiple tables. In this hack we give you access to a project called: `ironhacks-covid19-data`. In this project there are two datasets:`ironhacks-covid19-data:ironhacks_covid19_training` and `ironhacks-covid19-data:ironhacks_competition`. During the training period you will only find data in the first dataset. In this first tutorial we only use one first relatively simply structured table stored in this dataset. It is called `covid19_cases`.
+**How do we give you access to BigQuery?** In Big Query data are stored in projects. Inside a project there are multiple datasets. Each dataset can contain multiple tables. In this hack we give you access to a project called: `ironhacks-data`. In this project there are two datasets:`ironhacks-data:ironhacks_covid19_training` and `ironhacks-data:ironhacks_competition`. During the training period you will only find data in the first dataset. In this first tutorial we only use one first relatively simply structured table stored in this dataset. It is called `covid19_cases`.
 
 **Keep in mind**: In this tutorial you will learn how to get access to the ironhacks-covid19-data and the datset ironhacks-covid19-data:ironhacks_covid19_training stored inside this project.
 
@@ -45,7 +45,7 @@ gcloud auth application-default login
 Now we'll need to set the project in your environment
 
 ```
-gcloud auth application-default set-quota-project ironhacks-covid19-data
+gcloud auth application-default set-quota-project ironhacks-data
 ```
 Your terminal should look something like this now
 
@@ -56,7 +56,7 @@ Now we can go back to our notebook environment and now we can progress as normal
 
 > Note: You will need to re-run the terminal commands each time you re-open the notebook. But this will only need to be done once per session
 ```
-BIGQUERY_PROJECT = 'ironhacks-covid19-data'
+BIGQUERY_PROJECT = 'ironhacks-data'
 bigquery_client = bigquery.Client(project=BIGQUERY_PROJECT)
 
 ```

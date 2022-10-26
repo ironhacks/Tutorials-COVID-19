@@ -12,7 +12,7 @@ In this tutorial, we'll learn how to leverage SQL to query the data that we need
 2. WHERE
 3. GROUP BY and JOIN
 
-You will be working with two different tables in the project `ironhacks-covid19-data`: `ironhacks-covid19-data.ironhacks_covid19_training.weather_data` and `ironhacks-covid19-data.ironhacks_covid19_training.covid19_cases`
+You will be working with two different tables in the project `ironhacks-data`: `ironhacks-data.ironhacks_training.weather_data` and `ironhacks-data.ironhacks_training.covid19_cases`
 
 You can find out more about the schema in those tables [here](https://docs.google.com/spreadsheets/d/1IowaQ8bDQA7xvc92TzpJ252KsHPDL6zbi2mdXNr3irs/edit?usp=drive_web&ouid=111649936971597408311). Indeed, it is important that you make yourself familiar with this schema before you start with this tutorial.
 
@@ -24,7 +24,7 @@ The SELECT FROM command is the most common command you use in SQL. This will hel
 
 ```
 query = """
-SELECT * FROM `ironhacks-covid19-data.ironhacks_covid19_training.weather_data`
+SELECT * FROM `ironhacks-data.ironhacks_training.weather_data`
 """
 
 query_job = bigquery_client.query(query)
@@ -38,7 +38,7 @@ query = """
 SELECT 
 WEEK_NUMBER,
 WIND_SPEED
-FROM `ironhacks-covid19-data.ironhacks_covid19_training.weather_data`
+FROM `ironhacks-data.ironhacks_training.weather_data`
 """
 
 query_job = bigquery_client.query(query)
