@@ -68,14 +68,14 @@ This query will now only retrieve entries that have a date as `2020-06-16`. We c
 
 In Ironhacks, we provide you with multiple tables that you may use at your disposal for your task. You could individually query them and have 2 separate tables. OR you can have Big Query take care of combining them for you! Using the GROUP BY and JOIN commands, we can combine the tables that we have so that we have 1 clean table that we can use for the task in our Jupyter Notebook.
 
-Now, you want to build a single table that contains information about COVID19 cases and also weather information! This information is in two different tables namely `ironhacks_covid19_training.weather_data` and `ironhacks-covid19-data.ironhacks_covid19_training.covid19_cases`! Specifically, you want to build a table with the following parameters. `mean_temperature`, `wind_speed`, and `cases`.  
+Now, you want to build a single table that contains information about COVID19 cases and also weather information! This information is in two different tables namely `ironhacks_training.weather_data` and `ironhacks-data.ironhacks_training.covid19_cases`! Specifically, you want to build a table with the following parameters. `mean_temperature`, `wind_speed`, and `cases`.  
 
 To do so, we have to first bring the data to the same level of granularity. So the steps are: 
 
 1. Aggregate the `weather_data` so that you are reporting weekly using the `GROUP BY` command. 
 2. Join the newly created temporary table with the `covid19_cases` using the `join` command.
 3. ordering the results by week_number using the `order by` command. 
-3. Displaying the results with pandas. 
+4. Displaying the results with pandas. 
 ```
 query = """
 

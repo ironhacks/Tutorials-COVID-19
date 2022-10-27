@@ -40,7 +40,7 @@ To access the BigQuery data avaliable to you, all you need is to input 2 termina
 
 This terminal command will create a Google Login link for you that will ask for your Google Login. You should login with the same account you registered for the hack for. Otherwise, you will not be able to access the data. 
 ```
-gcloud auth application-default login
+gcloud auth login
 ```
 Now we'll need to set the project in your environment
 
@@ -86,3 +86,6 @@ This would mean that either you didn't use the right login for your account or d
 
 - I just jumped back into my notebook, why am I getting an authorization error? 
 You'll need to re-run the terminal commands when you start up your notebook again. 
+
+- I ran into a strange issue, Please help!
+No worries! This is a fairly new authetication method we are using, so feel free to email us [here](c562462b.groups.purdue.edu@amer.teams.ms)
