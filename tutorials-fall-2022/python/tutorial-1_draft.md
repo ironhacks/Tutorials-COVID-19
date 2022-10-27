@@ -35,6 +35,3 @@ Jupyterhub will typically have specific shortcuts and other things within them, 
 
 Some features Ironhacks has provided to you already. One of these features includes the preinstalled Python libraries that are available to all participants. This includes common libraries such as Pandas and Numpy, so there will be no necessity to install packages before you run any code. Just import the library and you are all good to go!
 
-## Additional Resources
-
-*Include links to other RCAC material or Medium articles*

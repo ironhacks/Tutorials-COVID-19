@@ -12,7 +12,7 @@ In this tutorial, we'll learn how to leverage SQL to query the data that we need
 2. WHERE
 3. GROUP BY and JOIN
 
-You will be working with two different tables in the project `ironhacks-covid19-data`: `ironhacks-covid19-data.ironhacks_covid19_training.weather_data` and `ironhacks-covid19-data.ironhacks_covid19_training.covid19_cases`
+You will be working with two different tables in the project `ironhacks-data`: `ironhacks-data.ironhacks_training.weather_data` and `ironhacks-data.ironhacks_training.covid19_cases`
 
 You can find out more about the schema in those tables [here](https://docs.google.com/spreadsheets/d/1IowaQ8bDQA7xvc92TzpJ252KsHPDL6zbi2mdXNr3irs/edit?usp=drive_web&ouid=111649936971597408311). Indeed, it is important that you make yourself familiar with this schema before you start with this tutorial.
 
@@ -24,7 +24,7 @@ The SELECT FROM command is the most common command you use in SQL. This will hel
 
 ```
 query = """
-SELECT * FROM `ironhacks-covid19-data.ironhacks_covid19_training.weather_data`
+SELECT * FROM `ironhacks-data.ironhacks_training.weather_data`
 """
 
 query_job = bigquery_client.query(query)
@@ -38,7 +38,7 @@ query = """
 SELECT 
 WEEK_NUMBER,
 WIND_SPEED
-FROM `ironhacks-covid19-data.ironhacks_covid19_training.weather_data`
+FROM `ironhacks-data.ironhacks_training.weather_data`
 """
 
 query_job = bigquery_client.query(query)
@@ -68,14 +68,14 @@ This query will now only retrieve entries that have a date as `2020-06-16`. We c
 
 In Ironhacks, we provide you with multiple tables that you may use at your disposal for your task. You could individually query them and have 2 separate tables. OR you can have Big Query take care of combining them for you! Using the GROUP BY and JOIN commands, we can combine the tables that we have so that we have 1 clean table that we can use for the task in our Jupyter Notebook.
 
-Now, you want to build a single table that contains information about COVID19 cases and also weather information! This information is in two different tables namely `ironhacks_covid19_training.weather_data` and `ironhacks-covid19-data.ironhacks_covid19_training.covid19_cases`! Specifically, you want to build a table with the following parameters. `mean_temperature`, `wind_speed`, and `cases`.  
+Now, you want to build a single table that contains information about COVID19 cases and also weather information! This information is in two different tables namely `ironhacks_training.weather_data` and `ironhacks-data.ironhacks_training.covid19_cases`! Specifically, you want to build a table with the following parameters. `mean_temperature`, `wind_speed`, and `cases`.  
 
 To do so, we have to first bring the data to the same level of granularity. So the steps are: 
 
 1. Aggregate the `weather_data` so that you are reporting weekly using the `GROUP BY` command. 
 2. Join the newly created temporary table with the `covid19_cases` using the `join` command.
 3. ordering the results by week_number using the `order by` command. 
-3. Displaying the results with pandas. 
+4. Displaying the results with pandas. 
 ```
 query = """
 
@@ -90,10 +90,10 @@ extract(week(Monday) from date) as week_number,
 AVG(mean_temperature) as mean_temperature_week,
 date as start_date,
 AVG(wind_speed) as mean_wind_speed_week
-FROM `ironhacks_covid19_training.weather_data`
+FROM `ironhacks_training.weather_data`
 group by week_number,start_date) a
 
-JOIN `ironhacks-covid19-data.ironhacks_covid19_training.covid19_cases` b 
+JOIN `ironhacks-data.ironhacks_training.covid19_cases` b 
 ON a.week_number=b.week_number
 order by week_number
 
