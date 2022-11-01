@@ -6,7 +6,7 @@ In the summary section of the [submission template](https://ironhacks.com/hacks/
 <img src="https://i.imgur.com/RcNJ01Y.png" alt=" icon" style="float: left; margin-right: 10px;" />
 
 
-The guidelines for the summary are detailed below. 
+**The guidelines for the summary are detailed below.**
 
 ### Description of the procedure
 * Data request and initial processing: Describe in this step how you extract portions or all of data, engineering features for further analysis.
@@ -20,7 +20,9 @@ The guidelines for the summary are detailed below.
 Please list the packages used in building this model.
 
 
-This is a summary example on the use of ARIMA model for your reference. 
+<br / >
+**This is a summary example on the use of ARIMA model for your reference.**
+<br />
 
 
 ## A summary example of an ARIMA model. 
