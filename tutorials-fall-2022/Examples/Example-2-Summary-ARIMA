@@ -1,0 +1,10 @@
+## An Example of the ARIMA model
+### Description of the algorithm
+ARIMA is the name for ‘Auto Regressive Integrated Moving Average’ models. ARIMA is one of the most widely used approaches to time series forecasting. There is a component of an autoregressive model, where the dependent variable is forecasted using a linear combination of past values of that variable. This is like a multiple regression but with lagged values of y as predictors. Depending on the number of lags, they are referred to as AR(p) models. There is also a component of a moving average model, where past forecast errors are used in a regression-like model. Depending on the number of lagged differences, they are referred to as MA(q) models. An ARIMA model is characterized by 3 terms: p, d, q, where p is the order of the AR term, q is the order of the MA term, d is the number of differencing required to make the time series stationary.
+
+### Description of the procedure
+After pulling the data, only columns useful for the current modeling were chosen. Data at the daily level were visualized with a clear autoregressive pattern, which suggests that ARIMA may be an appropriate model. To build a good ARIMA model, parameters of p, d, q need to be tuned. These three parameters account for seasonality, trend, and noise in data. Grid-search was used to look for the best combination of parameters. After tuning the best set of parameters that generates the best AIC, the final model was built using these parameters with complete data. Predictions were made using this model.
+
+### Packages used
+Statsmodels
+sklearn
