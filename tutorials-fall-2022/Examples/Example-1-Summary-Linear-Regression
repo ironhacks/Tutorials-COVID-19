@@ -1,0 +1,10 @@
+## An Example of Linear Regression
+### Description of the Algorithm
+Linear regression is a method that estimates a function that minimizes the squared distances between a fit line and the observations. Generally, linear regression uses a method called "least squares" to determine which function predicts the data best, in terms of how the squared distances between observations and predictions are minimized. Linear regression outputs an intercept and a slope coefficient for each of the independent variables, each describing the linear effect of that independent variable, controlling for other independent variables, on the dependent variable.
+
+### Description of the Procedure
+After loading the dataset, it was subset to use only the variables most related to the prediction task. Since the modeling to be conducted was rather simple, linear regression modeling was chosen. Next the dataset was split into a training set and a testing set to train the algorithm. To interpret the results, the intercept, slope, a well as the accuracy of the model were inspected through comparing the predicted values to the observed values. Last, results were plotted in multiple ways to get a better grip on the performance of the model. The modeling task concluded by estimating MAE, MSE, and RMSE to evaluate the model.
+
+### Packages used
+pandas
+numpy
