@@ -1,6 +1,6 @@
 ## General guidelines for writing summary of your models during submission
 
-In the summary section of the [submission template](https://ironhacks.com/hacks/fall-2022/submissions), you are required to explain the inherent logic for the algorithms of your choice. You are welcome to use equations if needed. Your summary would need to be at least 250 words. 
+In the summary section of the [submission template](https://ironhacks.com/hacks/fall-2022/submissions), you are required to explain the inherent logic for the algorithms of your choice. You are welcome to use equations if needed. Your summary would need to be at least 500 characters. 
 
 
 <img src="https://i.imgur.com/RcNJ01Y.png" alt=" icon" style="float: left; margin-right: 10px;" />
