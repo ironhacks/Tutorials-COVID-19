@@ -16,13 +16,13 @@ Once you get in, you are greeted with an environment similar to any IDE you may 
 Once you get here, you can start coding! Notebooks typically use **cells** to section each part you write. You may create Text or Code cells. Text cells will help you explain your code or just keep notes for yourself to help you stay on track. Code cells will be any code that you write that the complier will run. Code cells can be run individually or all at once, making it easier to debug or run code, whichever you may choose when you develop your own code for this challenge.
 
 
-<img src="https://i.imgur.com/vYSSlIk.png" alt=" icon" style="float: left; margin-right: 10px;" />
+<img src="https://i.imgur.com/vYSSlIk.png" alt=" icon" style="margin-right: 10px;" />
 
-<img src="https://i.imgur.com/ErwWOSR.png" alt=" icon" style="float: left; margin-right: 10px;" />
+<img src="https://i.imgur.com/ErwWOSR.png" alt=" icon" style="margin-right: 10px;" />
 
 For running code, all you need to do is go to the toolbar near the top of the environment and hit play. It should look like the image below.
 
-<img src="https://i.imgur.com/QAZt5EI.png" alt=" icon" style="float: left; margin-right: 10px;" />
+<img src="https://i.imgur.com/QAZt5EI.png" alt=" icon" style="margin-right: 10px;" />
 
 
 ## Tips and Tricks
