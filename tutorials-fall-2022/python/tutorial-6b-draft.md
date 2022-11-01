@@ -1,9 +1,12 @@
 ## General guidelines for writing summary of your models during submission
 
-NOTE: Your summary would need to be at least 250 words. 
+In the summary section of the [submission template](https://ironhacks.com/hacks/fall-2022/submissions), you are required to explain the inherent logic for the algorithms of your choice. You are welcome to use equations if needed. Your summary would need to be at least 250 words. 
 
-### Description of the algorithm
-Please explain the inherent logic the algorithms of choice. You are welcome to use equations if needed.
+
+<img src="https://i.imgur.com/RcNJ01Y.png" alt=" icon" style="float: left; margin-right: 10px;" />
+
+
+The guidelines for the summary are detailed below. 
 
 ### Description of the procedure
 * Data request and initial processing: Describe in this step how you extract portions or all of data, engineering features for further analysis.
@@ -15,6 +18,10 @@ Please explain the inherent logic the algorithms of choice. You are welcome to u
 
 ### Packages used
 Please list the packages used in building this model.
+
+
+This is a summary example on the use of ARIMA model for your reference. 
+
 
 ## A summary example of an ARIMA model. 
 
@@ -28,3 +35,6 @@ After pulling the data, I only kept the columns useful for my analysis. I chose 
 Statsmodels
 sklearn
 
+As usual, if you have any question, feel free to use the "Get in Touch" button on the top right hand corner to message us. 
+
+Happy Hacking! 
