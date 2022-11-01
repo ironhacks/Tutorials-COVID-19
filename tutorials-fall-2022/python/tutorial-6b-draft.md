@@ -20,7 +20,7 @@ In the summary section of the [submission template](https://ironhacks.com/hacks/
 Please list the packages used in building this model.
 
 
-<br / >
+<br />
 **This is a summary example on the use of ARIMA model for your reference.**
 <br />
 
