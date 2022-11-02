@@ -45,7 +45,7 @@ gcloud auth login
 Now we'll need to set the project in your environment
 
 ```
-gcloud auth application-default auth
+gcloud auth application-default login
 ```
 Now we've set the credentials for your profile. Now lets set the project.
 ```
