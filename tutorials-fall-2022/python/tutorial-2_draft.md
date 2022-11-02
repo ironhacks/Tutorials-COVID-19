@@ -58,7 +58,7 @@ Your terminal should look something like this now
 
 Now we can go back to our notebook environment and now we can progress as normal!
 
-> Note: You will need to re-run the terminal commands each time you re-open the notebook. But this will only need to be done once per session
+> Note: You will need to install "db-dtypes" for now to run the entire notebook. Run `pip install db-dtypes`. Once you run this, restart the kernal and you should be good to go!
 ```
 BIGQUERY_PROJECT = 'ironhacks-data'
 bigquery_client = bigquery.Client(project=BIGQUERY_PROJECT)
