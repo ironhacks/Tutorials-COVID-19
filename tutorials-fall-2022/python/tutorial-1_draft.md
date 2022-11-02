@@ -2,6 +2,8 @@
 
 > Want to jump right into the notebook? [Click here!](https://ironhacks.com/notebook-viewer?path=https://raw.githubusercontent.com/ironhacks/Tutorials-COVID-19/master/tutorials-fall-2022/python/tutorial-1-jupyter.ipynb)
 
+> Want to watch a video on this tutorial instead? [Click here to go to Youtube!](https://youtu.be/vAiTvdObjn4)
+
 In this tutorial, the goal is to learn about how to use Jupyter notebooks and be able to learn about the tools available to you in the Jupyterhub environment that Ironhacks provides to you
 
 ## Getting Started with your Notebook
