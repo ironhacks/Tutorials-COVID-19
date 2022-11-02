@@ -85,11 +85,31 @@ If you are able to see a Pandas Dataframe with some data in the output, that mea
 
 ## FAQ and Troubleshooting
 
-- I'm getting an ADC error. What do I do?
+- **I'm getting an ADC error. What do I do?**
+
 This would mean that either you didn't use the right login for your account or did not set the project with the second command. Please re-run the terminal commands 
 
-- I just jumped back into my notebook, why am I getting an authorization error? 
+- **I just jumped back into my notebook, why am I getting an authorization error?** 
+
 You'll need to re-run the terminal commands when you start up your notebook again. 
 
-- I ran into a strange issue, Please help!
-No worries! This is a fairly new authetication method we are using, so feel free to email us [here](c562462b.groups.purdue.edu@amer.teams.ms)
+- **I ran into a strange issue, Please help!**
+
+No worries! This is a fairly new authentication method we are using, so feel free to email us [here](c562462b.groups.purdue.edu@amer.teams.ms)
+
+## Authentication FAQ
+
+- **I got a `USER_ACCOUNT_DENIED` Error. What do I do?**
+
+This would usually indicate that you are a new register and have not been give permissions yet. Since this is a manual process, please give the team a bit of time to update. The last update happened on 11/2 at 9 AM. 
+
+> If you still have this issue, then your Google account is not on the platform yet. We encourage you to use the same account you signed into Ironhacks with when logging into the workspace. Since we use Google to authenticate, we'll need a Google Account to make sure you get access to the project. If this is the case for you, please reach out to the team using the "Get in Touch" button in the top right of the Ironhacks website.  
+
+
+- **I'm getting an ADC error in the terminal. Help me!**
+
+Please run the commands `gcloud auth application-default login` and  `gcloud auth application-default set-quota-project ironhacks-data`. The first will be a authentication link similar to `gcloud auth login` and the other will run to save your credentials.  This should resolve the issue. Tutorial 2 has been updated for this as well, so you can use that as reference to make sure you input the commands in the correct order.
+
+- **I'm getting a "ModuleNotFound" or "db-dtypes needs to be installed". What do I do?**
+
+This package is unfortunately not installed. Please install it in a code cell using `!pip install db-dtypes` and then restart the kernel. You won't have to run this command again for the rest of the hack.
