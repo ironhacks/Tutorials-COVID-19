@@ -10,7 +10,7 @@ In this tutorial, the goal is to learn about how to use Jupyter notebooks and be
 
 To access your Ironhacks Jupyter Notebook, all you need to do is click the Workspace button in the main Hack page and the environment will automatically load and open in a new tab.
 
-<img src="https://i.imgur.com/UMFAWbW.png" alt=" icon" style="float: left; margin-right: 10px;" />
+<img src="https://i.imgur.com/UMFAWbW.png" alt=" icon" style="margin-right: 10px;" />
 
 Once you get in, you are greeted with an environment similar to any IDE you may have worked with in the past. To create an notebook, all you have to do is hit **File->Create New Notebook** and a new Python notebook will open up. 
 
