@@ -106,4 +106,4 @@ data.head()
 
 ## More information
 - If you want a better idea of how to structure your queries, [Click here for the official documentation!](https://cloud.google.com/bigquery/docs/reference/standard-sql/query-syntax)
-- If you need to list the tables in a specific dataset, [Click here for the code to accomplish that!](https://cloud.google.com/bigquery/docs/samples/bigquery-list-tables#bigquery_list_tables-python)
+- If you need to list the tables in a specific dataset, [Click here for the queries to accomplish that!](https://ironhacks.com/hacks/fall-2022/forum/thread/QprpevZWbDuwvoXWKKAY)
