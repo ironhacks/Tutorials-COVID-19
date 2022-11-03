@@ -8,6 +8,12 @@ In the summary section of the [submission template](https://ironhacks.com/hacks/
 
 **The guidelines for the summary are detailed below.**
 
+### Description of the algorithm
+* Fundamental logic of the algorithm. Please describe how the algorithm actually works, including statistical reasoning, optimization procedure, etc.
+* Appropriate conditions for the algorithm. Please describe the conditions (i.e., problem type, data structure) where the algorithm will perform effectively and ineffectively.
+* Essential parameters to be tuned. Please describe what the essential parameters for this algorithm mean and how they are tuned to get an optimal model.
+
+
 ### Description of the procedure
 * Data request and initial processing: Describe in this step how you extract portions or all of data, engineering features for further analysis.
 * Exploratory data analysis: Describe in this step how you visualize, summarize and identify a trend of the data, and how you choose particular algorithms.
