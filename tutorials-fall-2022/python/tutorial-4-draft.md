@@ -36,7 +36,7 @@ Now that we have an idea for how we want to create our solution, we can start bu
 
 So what we want to do is called Feature Engineering. Feature engineering helps us analyze and visualize how the data is working. To explore some methods of Feature Engineering, check out the links before
 
- - [Fundementals: Towards Data Science](https://towardsdatascience.com/feature-engineering-for-machine-learning-3a5e293a5114)
+ - [Fundamentals: Towards Data Science](https://towardsdatascience.com/feature-engineering-for-machine-learning-3a5e293a5114)
  - [How to get Good at Feature Engineering](https://machinelearningmastery.com/discover-feature-engineering-how-to-engineer-features-and-how-to-get-good-at-it/)
  - [8 Techniques in Feature Engineering](https://www.projectpro.io/article/8-feature-engineering-techniques-for-machine-learning/423)
  
@@ -48,7 +48,6 @@ Now that we have completed our feature engineering, we can now dive into finding
 
 With good feature engineering, we can notice these trends and figure out what type of models may work with some good research. To help you get started, we included some ideas below on where to start. 
 
- - Insert Datamine links
 
 ## Developing a Model
 
