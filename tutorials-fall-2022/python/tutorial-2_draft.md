@@ -38,25 +38,49 @@ BigQuery is Google's flagship data warehousing system: "Serverless, highly scala
 
 To access the BigQuery data avaliable to you, all you need is to input 2 terminal commands and a small code segement and Jupyter Notebook will handle the rest for you! You are now able to access the competition data (when released) with just a few SQL commands.
 
-This terminal command will create a Google Login link for you that will ask for your Google Login. You should login with the same account you registered for the hack for. Otherwise, you will not be able to access the data. 
+To open a new terminal, open your Workspace and open a terminal as seen highlighted box. If you don't have this launcher, click the "+" at the top as highlighted.
+
+<img src="images/launcher.PNG" alt="Launcher" width="70%" height="70%"/>
+
+A new terminal tab should open and you should be able to type in there. You will now need to type in 3 commands and 2 authorization codes.
+
+This terminal command below will create a Google Login link, as seen in the second highlighted box. Copy this link into a new tab in your internet browser and hit "Enter".  You should login with the same account you registered for the hack for. Otherwise, you will not be able to access the data. 
 ```
 gcloud auth login
 ```
-Now we'll need to set the project in your environment
 
+<img src="images/first_login.PNG" alt="first_login" width="70%" height="70%"/>
+
+A Google login page should now appear like so. Sign in with the Google Account used for this hack.
+
+<img src="images/gcloud_first.PNG" alt="login_page" width="70%" height="70%"/>
+
+After that a new permissions screen will show up. Hit "Allow" as like below.
+
+<img src="images/gcloud_allow.PNG" alt="permissions" width="70%" height="70%"/>
+
+You will now get an authorization code. It should be in the location highlighted below. Copy this code and go back to your Workspace where the terminal is open. Paste the code into where it says "Enter Authorization Code:" as highlighted with the yellow box.
+<img src="images/first_login.PNG" alt="permissions" width="70%" height="70%"/>
+
+Now we'll need to set the project in your environment. Below are the 2 commands to accomplish this. 
 ```
 gcloud auth application-default login
 ```
+This command will be an identical procedure to the one below, as seen here. Repeat the same steps as the previous command to proceed. 
+
+<img src="images/second_login.PNG" alt="permissions" width="70%" height="70%"/>
+
+
 Now we've set the credentials for your profile. Now lets set the project.
 ```
 gcloud auth application-default set-quota-project ironhacks-data
 ```
-Your terminal should look something like this now
+Your terminal output for this command should look something like this now
 
-<img src="https://i.imgur.com/6ol805q.png" alt=" icon" style="float: left; margin-right: 10px;" />
+<img src="images/set_project.PNG" alt="permissions" width="70%" height="70%"/>
 
 
-Now we can go back to our notebook environment and now we can progress as normal!
+Now we can go back to our notebook and now we can progress as normal!
 
 > Note: You will need to install "db-dtypes" for now to run the entire notebook. Run `pip install db-dtypes`. Once you run this, restart the kernal and you should be good to go!
 ```
