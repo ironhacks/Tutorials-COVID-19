@@ -29,7 +29,7 @@ For running code, all you need to do is go to the toolbar near the top of the en
 
 ## Tips and Tricks
 
-Jupyterhub will typically have specific shortcuts and other things within them, similar to an IDE. You can find some of these in the notebook [here](https://ironhacks.com/notebook-viewer?path=https://raw.githubusercontent.com/ironhacks/Tutorials-COVID-19/master/tutorials-Spring-2021/python/tutorial-1-jupyter.ipynb) to give you an idea of what you have available to you
+Jupyterhub will typically have specific shortcuts and other things within them, similar to an IDE. You can find some of these in the notebook [here](https://ironhacks.com/notebook-viewer?path=https://raw.githubusercontent.com/ironhacks/Tutorials-COVID-19/master/tutorials-fall-2022/python/tutorial-1-jupyter.ipynb) to give you an idea of what you have available to you
 
 > For a more advanced cheatsheet, [check this out.](http://datacamp-community-prod.s3.amazonaws.com/21fdc814-3f08-4aa9-90fa-247eedefd655)
 
