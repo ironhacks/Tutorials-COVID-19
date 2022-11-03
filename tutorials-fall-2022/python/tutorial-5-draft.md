@@ -9,7 +9,6 @@ One of the most basic forms of modeling you can do is a regression. It can come 
 End of this tutorial, you should know the following:
  - Understand a lag regression model (Theory, properties, etc)
  - Be able to implement lag regression in python
- - Include preprocessing??
  - Be able to implement a simple solution for the hack (Using other related/similar data)
 
 
@@ -21,10 +20,7 @@ A Distributed Lag Model is a model that lags a variable to get a better fitted d
 
 ### Formulas
 
-<figure>
-<img src="images/lag_formula.JPG" alt="Lag Formula" width="70%" height="70%"/>
-<figcaption align = "center">
-</figure>
+<img src="https://i.imgur.com/yRO2tA5.png" alt=" icon" style="float: left; margin-right: 10px;" />
 
 ```u``` here is a stationary error term to make adjustments to the model. ```a``` represents the initial values. ```B``` represents the lag weights for the independent variable, ```x```. This is the essential part of the the lag regression. Both ```B``` and ```x``` create the lag distribution when combined together. 
 
@@ -34,8 +30,8 @@ Typically, lag regression tends to be most useful with data that involves some f
 
 ## Implementation
 
-> Check out the Jupyter Notebook here! [Lag Regression](https://ironhacks.com/notebook-viewer?path=https://raw.githubusercontent.com/ironhacks/Tutorials-COVID-19/master/tutorials-Spring-2022/python/tutorial-7-regression.ipynb)
+> Check out the Jupyter Notebook here! [Lag Regression](https://ironhacks.com/notebook-viewer?path=https://raw.githubusercontent.com/ironhacks/Tutorials-COVID-19/master/tutorials-fall-2022/python/tutorial-5-regression.ipynb)
 
 ## Summary
 
-Now that you have seen the theory and implementation of a lag regression, you should be able to have a head start into the hack and be able to come up with a simple model to predict the target variable. We can't give you all the answers, but hopefully this will give you a great starting point to begin modeling and producing some predictions. 
+Now that you have seen the theory and implementation of a lag regression, you should be able to have a head start into the hack and be able to come up with a simple model to predict the target variable. We can't give you all the answers, but hopefully this will give you a great starting point to begin modeling and producing some predictions.
