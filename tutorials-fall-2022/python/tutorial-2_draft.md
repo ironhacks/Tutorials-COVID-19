@@ -49,7 +49,7 @@ This terminal command below will create a Google Login link, as seen in the seco
 gcloud auth login
 ```
 
-<img src="images/first_login.PNG" alt="first_login" width="70%" height="70%"/>
+<img src="images/first_login.PNG" alt="first_login" width="100%" height="100%"/>
 
 A Google login page should now appear like so. Sign in with the Google Account used for this hack.
 
@@ -68,7 +68,7 @@ gcloud auth application-default login
 ```
 This command will be an identical procedure to the one below, as seen here. Repeat the same steps as the previous command to proceed. 
 
-<img src="images/second_login.PNG" alt="permissions" width="70%" height="70%"/>
+<img src="images/second_login.PNG" alt="permissions" width="100%" height="100%"/>
 
 
 Now we've set the credentials for your profile. Now lets set the project.
@@ -77,7 +77,7 @@ gcloud auth application-default set-quota-project ironhacks-data
 ```
 Your terminal output for this command should look something like this now
 
-<img src="images/set_project.PNG" alt="permissions" width="70%" height="70%"/>
+<img src="images/set_project.PNG" alt="permissions" width="100%" height="100%"/>
 
 
 Now we can go back to our notebook and now we can progress as normal!
