@@ -40,7 +40,7 @@ To access the BigQuery data avaliable to you, all you need is to input 2 termina
 
 To open a new terminal, open your Workspace and open a terminal as seen highlighted box. If you don't have this launcher, click the "+" at the top as highlighted.
 
-<img src="images/launcher.PNG" alt="Launcher" width="70%" height="70%"/>
+<img src="https://i.imgur.com/7E9ubfW.png" alt=" icon" style="margin-right: 10px;" />
 
 A new terminal tab should open and you should be able to type in there. You will now need to type in 3 commands and 2 authorization codes.
 
@@ -48,19 +48,24 @@ This terminal command below will create a Google Login link, as seen in the seco
 ```
 gcloud auth login
 ```
+<img src="https://i.imgur.com/YF20i54.png" alt=" icon" width="100%" height="100%" style="margin-right: 10px;" />
 
-<img src="images/first_login.PNG" alt="first_login" width="100%" height="100%"/>
 
 A Google login page should now appear like so. Sign in with the Google Account used for this hack.
 
-<img src="images/gcloud_first.PNG" alt="login_page" width="50%" height="50%"/>
+<img src="https://i.imgur.com/4bc6m65.png" alt="login_page" width="50%" height="50%"/>
 
 After that a new permissions screen will show up. Hit "Allow" as like below.
 
-<img src="images/gcloud_allow.PNG" alt="permissions" width="50%" height="50%"/>
+<img src="https://i.imgur.com/x7yY932.png" alt="permissions" width="50%" height="50%"/>
 
-You will now get an authorization code. It should be in the location highlighted below. Copy this code and go back to your Workspace where the terminal is open. Paste the code into where it says "Enter Authorization Code:" as highlighted with the yellow box.
-<img src="images/first_login.PNG" alt="permissions" width="100%" height="100%"/>
+You will now get an authorization code. It should be in the location highlighted below. 
+
+<img src="https://i.imgur.com/cZEkLhM.png" alt=" icon" style="margin-right: 10px;" width="50%" height="50%"/>
+
+Copy this code and go back to your Workspace where the terminal is open. Paste the code into where it says "Enter Authorization Code:" as highlighted with the yellow box.
+
+<img src="https://i.imgur.com/YF20i54.png" alt="permissions" width="100%" height="100%"/>
 
 Now we'll need to set the project in your environment. Below are the 2 commands to accomplish this. 
 ```
@@ -68,7 +73,7 @@ gcloud auth application-default login
 ```
 This command will be an identical procedure to the one below, as seen here. Repeat the same steps as the previous command to proceed. 
 
-<img src="images/second_login.PNG" alt="permissions" width="100%" height="100%"/>
+<img src="https://i.imgur.com/CXoHV6t.png" alt="permissions" width="100%" height="100%"/>
 
 
 Now we've set the credentials for your profile. Now lets set the project.
@@ -77,7 +82,7 @@ gcloud auth application-default set-quota-project ironhacks-data
 ```
 Your terminal output for this command should look something like this now
 
-<img src="images/set_project.PNG" alt="permissions" width="100%" height="100%"/>
+<img src="https://i.imgur.com/zYzmwcX.png" alt="permissions" width="100%" height="100%"/>
 
 
 Now we can go back to our notebook and now we can progress as normal!
