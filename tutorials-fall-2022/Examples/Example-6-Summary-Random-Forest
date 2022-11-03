@@ -1,9 +1,0 @@
-## An Example of the Random Forest model
-### Description of the algorithm
-Random forest is a type of decision tree algorithm. For decision trees, we generally use bagging to bootstrap samples from the training data to build the model. Thus, a number of decision trees are made where each tree is created from a different bootstrap sample of the training dataset. Random forests provide an improvement over bagged trees by way of a small tweak that de-correlates the trees. That is, when building these decision trees, each time a split in a tree is considered, a random selection of m predictors is chosen as split candidates from the full set of p predictors. This reduces the variance when we average the trees.
-
-### Description of the procedure
-Although random forest is not a type of traditional time series model, it can also achieve good prediction results because it's essentially an ensemble of trees. To apply random forest on time series data, it is necessary to first convert the data into a supervised learning format. Since in time series data, past data is used to predict future data, so the usual k-fold cross validation can not be used. Instead, a specific time point was chosen to split the first 75% as the training data and the later 25% as the testing data. Then the random forest regressor was fit by setting the number of trees. After using this model for prediction, mean absolute errors were calculated.
-
-### Packages used
-sklearn
