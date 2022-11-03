@@ -53,14 +53,14 @@ gcloud auth login
 
 A Google login page should now appear like so. Sign in with the Google Account used for this hack.
 
-<img src="images/gcloud_first.PNG" alt="login_page" width="70%" height="70%"/>
+<img src="images/gcloud_first.PNG" alt="login_page" width="1000%" height="70%"/>
 
 After that a new permissions screen will show up. Hit "Allow" as like below.
 
 <img src="images/gcloud_allow.PNG" alt="permissions" width="70%" height="70%"/>
 
 You will now get an authorization code. It should be in the location highlighted below. Copy this code and go back to your Workspace where the terminal is open. Paste the code into where it says "Enter Authorization Code:" as highlighted with the yellow box.
-<img src="images/first_login.PNG" alt="permissions" width="70%" height="70%"/>
+<img src="images/first_login.PNG" alt="permissions" width="100%" height="100%"/>
 
 Now we'll need to set the project in your environment. Below are the 2 commands to accomplish this. 
 ```
