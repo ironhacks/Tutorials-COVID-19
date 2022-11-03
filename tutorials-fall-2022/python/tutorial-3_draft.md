@@ -103,3 +103,6 @@ query_job = bigquery_client.query(query)
 data = query_job.to_dataframe()
 data.head()
 ```
+
+## More information
+If you want a better idea of how to strcture your queries, [Click here for the official documentation!](https://cloud.google.com/bigquery/docs/reference/standard-sql/query-syntax)
