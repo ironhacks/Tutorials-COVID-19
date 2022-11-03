@@ -14,7 +14,7 @@ In this tutorial, we'll learn how to leverage SQL to query the data that we need
 
 You will be working with two different tables in the project `ironhacks-data`: `ironhacks-data.ironhacks_training.weather_data` and `ironhacks-data.ironhacks_training.covid19_cases`
 
-You can find out more about the schema in those tables [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vRaNYZ-77ki3Ay2VLjNQbBtoW_xUDzraoYiC8nBdMkvDymfrNUDiaVfXaauYnBJ-4YGk7VbQ7qNM_Wj/pubhtml). Indeed, it is important that you make yourself familiar with this schema before you start with this tutorial.
+You can find out more about the schema in those tables [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vRL-897BXh4BQFYMX4B06knO40emWSWC4Bug12QhXSE-wYZcqZZwLDPaLHb3AfOO0wEMSyKKTZaqtDn/pubhtml). Indeed, it is important that you make yourself familiar with this schema before you start with this tutorial.
 
 In this tutorial we will use two different libraries. Namely, the `bigquery` library, and the `pandas` library. The later will be used to display the tables as a dataframe. 
 
