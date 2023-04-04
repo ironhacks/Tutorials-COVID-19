@@ -25,9 +25,9 @@ countyMaps.drop(['geometry'], axis=1, inplace=True)
 merged_df = pd.merge(<your_dataframe>, countyMaps, on='countyfips', how='inner')
 ```
 
-The code above is simply preprocessing the files you need to get them to a point where it is possbile to visualize data with Folium quickly.
+The code above is simply preprocessing the files. You will need to additionally process them in a way that you see fit to visualize them with Folium, which we will show you how to use later on.
 
-Once you run the code cell above, you should have one huge dataframe which contains two columns for tract names. We'll need to drop one.
+Once you run the code cell above, you should have one huge dataframe which contains two columns for tract names. We will need to drop one.
 
 ```
 merged_df.drop(['tract_name'], axis=1, inplace=True)
@@ -39,12 +39,12 @@ Now, say you would like to visualize the average number of claims per county up 
 avg_unemp_claims = merged_df.groupby('name', as_index=False)['total_claims'].mean()
 ```
 
-The code above will do an SQL-like GROUP BY on county name, while aggregating the total claims column.
+The code above will perform an SQL-like GROUP BY on county name, while aggregating the total claims column to the mean of the column.
 The resulting dataframe should look like this:
 
 ![dataframeExample](./images//dataframe_example.png)
 
-To map this, we will be using the Folium package; specifically, the ```folium.Choropleth``` function.
+To map this specific data, we will be using the Folium package; specifically, the ```folium.Choropleth``` function.
 
 The Choropleth function needs two primary inputs, one to the data, in a series, list, array or dataframe object, and another to a geojson file, or any file that contains coordinate information. If you plan on plotting by a specific feature, a third input is necessary - ```key_on```.
 
